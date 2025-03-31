@@ -101,7 +101,7 @@ namespace ShimmeringUnity
             );
             latestTemperature = dataTemp != null ? (float)dataTemp.Data : float.NaN;
 
-            Debug.Log($"SensorUpdate - PPG: {latestPPG}, HR: {hrDirect}/{hrBuffered}, GSR: {latestGSR}, Temp: {latestTemperature}");
+            Debug.Log($"SensorUpdate - PPG: {latestPPG}, HR: {hrDirect}, GSR: {latestGSR}, Temp: {latestTemperature}");
         }
 
         void Update()
