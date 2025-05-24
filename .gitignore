@@ -41,6 +41,7 @@ sysinfo.txt
 
 # Others
 com.Tivadar.*.xml
+UnityShimmerDataStreaming/Packages/packages-lock.json
 
 # Outpu files
 UnityShimmerDataStreaming/DataOutput/**
