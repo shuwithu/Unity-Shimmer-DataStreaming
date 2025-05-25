@@ -49,7 +49,6 @@ public class DataPersistenceManager : MonoBehaviour
 
         InitializeSelectedProfileId();
         Debug.Log(Application.persistentDataPath);
-
     }
 
     private void OnEnable() 
@@ -61,29 +60,17 @@ public class DataPersistenceManager : MonoBehaviour
     {
         SceneManager.sceneLoaded -= OnSceneLoaded;
     }
-
-    // public void OnSceneLoaded(Scene scene, LoadSceneMode mode) 
-    // {
-    //     this.dataPersistenceObjects = FindAllDataPersistenceObjects();
-    //     LoadGame();
-    //
-    //     // start up the auto saving coroutine
-    //     if (autoSaveCoroutine != null) 
-    //     {
-    //         StopCoroutine(autoSaveCoroutine);
-    //     }
-    //     autoSaveCoroutine = StartCoroutine(AutoSave());
-    // }
     
     public void OnSceneLoaded(Scene scene, LoadSceneMode mode) 
     {
         this.dataPersistenceObjects = FindAllDataPersistenceObjects();
 
-        // ✅ Log each data persistence object found
+        /*
         foreach (var obj in dataPersistenceObjects)
         {
             Debug.Log($"[DataPersistenceManager] Found IDataPersistence object: {obj.GetType().Name} on GameObject: {((MonoBehaviour)obj).gameObject.name}");
         }
+        */
 
         LoadGame();
 
@@ -106,11 +93,8 @@ public class DataPersistenceManager : MonoBehaviour
 
     public void DeleteProfileData(string profileId) 
     {
-        // delete the data for this profile id
         dataHandler.Delete(profileId);
-        // initialize the selected profile id
         InitializeSelectedProfileId();
-        // reload the game so that our data matches the newly selected profile id
         LoadGame();
     }
 
@@ -147,7 +131,7 @@ public class DataPersistenceManager : MonoBehaviour
             return;
         }
 
-        // ✅ Increment session count here
+        // Increment session count here
         this.gameData.sessionCount++;
         Debug.Log($"[DataPersistenceManager] Session count: {this.gameData.sessionCount}");
 
