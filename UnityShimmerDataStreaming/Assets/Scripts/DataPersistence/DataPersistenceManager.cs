@@ -19,7 +19,7 @@ public class DataPersistenceManager : MonoBehaviour
     [Header("Auto Saving Configuration")]
     [SerializeField] private float autoSaveTimeSeconds = 60f;
 
-    private GameData gameData;
+    public GameData gameData;
     private List<IDataPersistence> dataPersistenceObjects;
     private FileDataHandler dataHandler;
 
@@ -202,5 +202,9 @@ public class DataPersistenceManager : MonoBehaviour
             Debug.Log("Auto Saved Game");
             Debug.Log(Application.persistentDataPath);
         }
+    }
+    public GameData GetGameData()
+    {
+        return gameData;
     }
 }
