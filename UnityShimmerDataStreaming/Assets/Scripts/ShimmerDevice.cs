@@ -190,6 +190,40 @@ namespace ShimmeringUnity
         private bool connectBlocker = false;
         private int waitBufferMilliseconds = 250;
 
+        
+        private void Start()
+        {
+            StartCoroutine(AutoConnectAndStream());
+        }
+
+        private IEnumerator AutoConnectAndStream()
+        {
+            yield return new WaitForSeconds(3f); // wait 3s for connection
+
+            Debug.Log("[ShimmerDevice] Auto-connecting after 3s...");
+            Connect();
+
+            // Wait until actually connected
+            float maxWaitTime = 20f;
+            float elapsed = 0f;
+            while (CurrentState != State.Connected && elapsed < maxWaitTime)
+            {
+                yield return new WaitForSeconds(0.5f);
+                elapsed += 0.5f;
+            }
+
+            if (CurrentState == State.Connected)
+            {
+                Debug.Log("[ShimmerDevice] Connected. Waiting 8s before streaming...");
+                yield return new WaitForSeconds(8f); 
+                Debug.Log("[ShimmerDevice] Starting streaming now...");
+                StartStreaming();
+            }
+            else
+            {
+                Debug.LogWarning("[ShimmerDevice] Failed to connect in time.");
+            }
+        }
         private void Update()
         {
             //Dequeue loop

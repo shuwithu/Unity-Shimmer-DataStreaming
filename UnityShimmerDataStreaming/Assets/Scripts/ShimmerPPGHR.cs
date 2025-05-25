@@ -27,7 +27,7 @@ namespace ShimmeringUnity
         [SerializeField, Tooltip("Number of heart beats to average for HR calculation (Direct method)")]
         private int NumberOfHeartBeatsToAverage = 1;
         [SerializeField, Tooltip("Training period (in seconds) for PPG data buffer (Direct method)")]
-        private int TrainingPeriodPPG = 10; // 10-second buffer
+        private int TrainingPeriodPPG = 3;
 
         // --- For Buffered Method ---
         private Filter LPF_PPG_Buffered;
@@ -75,6 +75,20 @@ namespace ShimmeringUnity
             }
         }
 
+        private void Start()
+        {
+            if (shimmerDevice != null)
+                shimmerDevice.OnStateChanged.AddListener(OnShimmerStateChanged);
+        }
+
+        private void OnShimmerStateChanged(ShimmerDevice device, ShimmerDevice.State state)
+        {
+            if (state == ShimmerDevice.State.Streaming)
+            {
+                Debug.Log("[ShimmerPPGHR] Streaming confirmed, now subscribing to data.");
+                shimmerDevice.OnDataRecieved.AddListener(OnDataRecieved);
+            }
+        }
         private void OnEnable()
         {
             if (shimmerDevice != null)
@@ -137,7 +151,7 @@ namespace ShimmeringUnity
             if (ppgBuffer.Count >= requiredBufferSize)
             {
                 hrBuffered = ComputeHeartRateFromBuffer();
-                Debug.Log($"[Buffered Method] Computed Heart Rate: {hrBuffered} BPM");
+                // Debug.Log($"[Buffered Method] Computed Heart Rate: {hrBuffered} BPM");
             }
         }
 

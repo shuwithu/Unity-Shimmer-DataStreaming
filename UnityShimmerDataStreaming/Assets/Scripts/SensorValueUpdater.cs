@@ -68,10 +68,10 @@ namespace ShimmeringUnity
                 ShimmerConfig.NAME_DICT[ShimmerConfig.SignalName.SYSTEM_TIMESTAMP],
                 ShimmerConfig.FORMAT_DICT[ShimmerConfig.SignalFormat.CAL]
             );
-            if (dataTS != null)
+            /*if (dataTS != null)
             {
                 Debug.Log($"Received data with timestamp: {dataTS.Data}");
-            }
+            }*/
 
             // Process PPG
             SensorData dataPPG = objectCluster.GetData(
@@ -101,7 +101,7 @@ namespace ShimmeringUnity
             );
             latestTemperature = dataTemp != null ? (float)dataTemp.Data : float.NaN;
 
-            Debug.Log($"SensorUpdate - PPG: {latestPPG}, HR: {hrDirect}, GSR: {latestGSR}, Temp: {latestTemperature}");
+            Debug.Log($"SensorUpdate PPG: {latestPPG}, HR: {hrDirect}, GSR: {latestGSR}, Temp: {latestTemperature}");
         }
 
         void Update()
