@@ -58,7 +58,7 @@ public class DynamicParticle : MonoBehaviour
     [Header("Temperature Mapping")]
     [Tooltip("Minimum expected temperature value")]
     public float minTemperature = 20f;
-    [Tooltip("Maximum expected temperature value")]
+    [Tooltip("Maximum expected temperature value")]                  
     public float maxTemperature = 40f;
     public Gradient colorGradient;
 
