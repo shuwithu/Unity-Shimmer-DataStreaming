@@ -1,4 +1,5 @@
 using UnityEngine;
+using System.Collections.Generic;
 using ShimmeringUnity;
 using ShimmerAPI;
 using ShimmerLibrary;
@@ -12,8 +13,6 @@ namespace ShimmeringUnity
 
         [Header("PPG HR Reference")]
         [SerializeField] private ShimmerPPGHR shimmerPPGHR;
-        [Header("Optional Particle Receiver")]
-        public DynamicParticle dynamicParticle;
 
         [Header("Debug Logging Settings")]
         [SerializeField] private bool enableLiveLogging = true;
@@ -24,10 +23,10 @@ namespace ShimmeringUnity
         private float latestTemperature = 0f;
         private float latestPPG = 0f;
         private float hrDirect = 0f;
-        // private float hrBuffered = 0f;
+
+        private List<DynamicParticle> dynamicParticles = new List<DynamicParticle>();
 
         public float HRDirect => hrDirect;
-        // public float HRBuffered => hrBuffered;
         public float LatestGSR => latestGSR;
         public float LatestPPG => latestPPG;
         public float LatestTemperature => latestTemperature;
@@ -42,6 +41,11 @@ namespace ShimmeringUnity
                     Debug.LogWarning("ShimmerPPGHR component not found.", this);
                 }
             }
+
+            // Find all DynamicParticle components in the scene
+            DynamicParticle[] foundParticles = GameObject.FindObjectsOfType<DynamicParticle>();
+            dynamicParticles.AddRange(foundParticles);
+            Debug.Log($"[SensorUpdater] Found {dynamicParticles.Count} DynamicParticle components.");
         }
 
         void OnEnable()
@@ -73,39 +77,23 @@ namespace ShimmeringUnity
                 return;
             }
 
-            // Timestamp (for packet validation)
-            SensorData dataTS = objectCluster.GetData(
-                ShimmerConfig.NAME_DICT[ShimmerConfig.SignalName.SYSTEM_TIMESTAMP],
-                ShimmerConfig.FORMAT_DICT[ShimmerConfig.SignalFormat.CAL]
-            );
-            /*
-            if (dataTS != null)
-            {
-                Debug.Log($"[Data] Timestamp: {dataTS.Data}");
-            }
-            */
-
-            // PPG
             SensorData dataPPG = objectCluster.GetData(
                 ShimmerConfig.NAME_DICT[ShimmerConfig.SignalName.INTERNAL_ADC_A13],
                 ShimmerConfig.FORMAT_DICT[ShimmerConfig.SignalFormat.CAL]
             );
             latestPPG = dataPPG != null ? (float)dataPPG.Data : float.NaN;
 
-            // HR from ShimmerPPGHR
             if (shimmerPPGHR != null)
             {
                 hrDirect = shimmerPPGHR.GetHRDirect();
             }
 
-            // GSR
             SensorData dataGSR = objectCluster.GetData(
                 ShimmerConfig.NAME_DICT[ShimmerConfig.SignalName.GSR_CONDUCTANCE],
                 ShimmerConfig.FORMAT_DICT[ShimmerConfig.SignalFormat.CAL]
             );
             latestGSR = dataGSR != null ? (float)dataGSR.Data : float.NaN;
 
-            // Temperature
             SensorData dataTemp = objectCluster.GetData(
                 ShimmerConfig.NAME_DICT[ShimmerConfig.SignalName.TEMPERATURE],
                 ShimmerConfig.FORMAT_DICT[ShimmerConfig.SignalFormat.CAL]
@@ -115,12 +103,15 @@ namespace ShimmeringUnity
 
         void Update()
         {
-            if (dynamicParticle != null)
+            foreach (var dp in dynamicParticles)
             {
-                dynamicParticle.HeartRate = hrDirect;
-                dynamicParticle.GSRValue = latestGSR;
-                dynamicParticle.Temperature = latestTemperature;
-                dynamicParticle.PPGValue = latestPPG;
+                if (dp != null)
+                {
+                    dp.HeartRate = hrDirect;
+                    dp.GSRValue = latestGSR;
+                    dp.Temperature = latestTemperature;
+                    dp.PPGValue = latestPPG;
+                }
             }
 
             if (enableLiveLogging)

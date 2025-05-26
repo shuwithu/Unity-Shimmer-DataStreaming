@@ -95,7 +95,7 @@ namespace ShimmeringUnity
                 return;
             }
 
-            // --- Compute HR using Direct Method ---
+            // Compute HR using Direct Method
             double filteredLP_direct = LPF_PPG_Direct.filterData(dataPPG.Data);
             double filteredHP_direct = HPF_PPG_Direct.filterData(filteredLP_direct);
             int computedHR = (int)Math.Round(ppgToHRAlgorithmDirect.ppgToHrConversion(filteredHP_direct, dataTS.Data));

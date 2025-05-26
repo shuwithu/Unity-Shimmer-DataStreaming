@@ -310,10 +310,7 @@ namespace ShimmeringUnity
                 }
             }
         }
-
-        /// <summary>
-        /// Forces the connection thread to be aborted
-        /// </summary>
+        
         public void ForceAbortThread()
         {
             if (shimmerThread != null)
