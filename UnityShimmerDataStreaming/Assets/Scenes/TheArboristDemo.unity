@@ -345,7 +345,7 @@ MonoBehaviour:
   _doublePinchMaxDelay: 0.4
   _scaleDownDuration: 1
   _effectPrefab: {fileID: 6496764004602965790, guid: fe81ddff006f38a449da11b73d6db8f3, type: 3}
-  _parentForEffect: {fileID: 1299899970}
+  _parentForEffect: {fileID: 347405591}
   _audioClip: {fileID: 8300000, guid: d857c221072d92344af4f7998beccbe6, type: 3}
 --- !u!82 &4056290
 AudioSource:
@@ -732,7 +732,7 @@ MonoBehaviour:
   _doublePinchMaxDelay: 0.4
   _scaleDownDuration: 1
   _effectPrefab: {fileID: 6496764004602965790, guid: fe81ddff006f38a449da11b73d6db8f3, type: 3}
-  _parentForEffect: {fileID: 1299899970}
+  _parentForEffect: {fileID: 347405591}
   _audioClip: {fileID: 8300000, guid: d857c221072d92344af4f7998beccbe6, type: 3}
 --- !u!1001 &25477910
 PrefabInstance:
@@ -757,7 +757,7 @@ PrefabInstance:
     - target: {fileID: 774072729207518174, guid: 8bb453fe001b28b479dc0d0a933eeabb, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 2107302321628571893, guid: 8bb453fe001b28b479dc0d0a933eeabb, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.20000003
@@ -1050,7 +1050,7 @@ MonoBehaviour:
   _doublePinchMaxDelay: 0.4
   _scaleDownDuration: 1
   _effectPrefab: {fileID: 6496764004602965790, guid: fe81ddff006f38a449da11b73d6db8f3, type: 3}
-  _parentForEffect: {fileID: 1299899970}
+  _parentForEffect: {fileID: 347405591}
   _audioClip: {fileID: 8300000, guid: d857c221072d92344af4f7998beccbe6, type: 3}
 --- !u!82 &29608754
 AudioSource:
@@ -6437,7 +6437,7 @@ MonoBehaviour:
   _doublePinchMaxDelay: 0.4
   _scaleDownDuration: 1
   _effectPrefab: {fileID: 6496764004602965790, guid: fe81ddff006f38a449da11b73d6db8f3, type: 3}
-  _parentForEffect: {fileID: 1299899970}
+  _parentForEffect: {fileID: 347405591}
   _audioClip: {fileID: 8300000, guid: d857c221072d92344af4f7998beccbe6, type: 3}
 --- !u!1 &75123338
 GameObject:
@@ -31491,7 +31491,7 @@ MonoBehaviour:
   _doublePinchMaxDelay: 0.4
   _scaleDownDuration: 1
   _effectPrefab: {fileID: 6496764004602965790, guid: fe81ddff006f38a449da11b73d6db8f3, type: 3}
-  _parentForEffect: {fileID: 1299899970}
+  _parentForEffect: {fileID: 347405591}
   _audioClip: {fileID: 8300000, guid: d857c221072d92344af4f7998beccbe6, type: 3}
 --- !u!1001 &165357914
 PrefabInstance:
@@ -31516,7 +31516,7 @@ PrefabInstance:
     - target: {fileID: 774072729207518174, guid: 8bb453fe001b28b479dc0d0a933eeabb, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 2107302321628571893, guid: 8bb453fe001b28b479dc0d0a933eeabb, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.20000002
@@ -56654,15 +56654,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 33d1dc6bad2aa5c489b26cce6ec37af7, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.398
+      value: -1.957
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 33d1dc6bad2aa5c489b26cce6ec37af7, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.8153
+      value: 2.986
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 33d1dc6bad2aa5c489b26cce6ec37af7, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0.188
+      value: 1.254
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 33d1dc6bad2aa5c489b26cce6ec37af7, type: 3}
       propertyPath: m_LocalRotation.w
@@ -62458,7 +62458,7 @@ GameObject:
   - component: {fileID: 347405593}
   m_Layer: 0
   m_Name: TouchPrefabPosRH
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -72631,7 +72631,7 @@ MonoBehaviour:
   _doublePinchMaxDelay: 0.4
   _scaleDownDuration: 1
   _effectPrefab: {fileID: 6496764004602965790, guid: fe81ddff006f38a449da11b73d6db8f3, type: 3}
-  _parentForEffect: {fileID: 1299899970}
+  _parentForEffect: {fileID: 347405591}
   _audioClip: {fileID: 8300000, guid: d857c221072d92344af4f7998beccbe6, type: 3}
 --- !u!82 &373979837
 AudioSource:
@@ -73087,6 +73087,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: a5883e0c77f5b48cdb5fdcea1623570e, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: a5883e0c77f5b48cdb5fdcea1623570e, type: 3}
+      propertyPath: m_ReceiveShadows
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -7511558181221131132, guid: a5883e0c77f5b48cdb5fdcea1623570e, type: 3}
@@ -98038,7 +98042,7 @@ MonoBehaviour:
   startInMRMode: 1
   transitionDuration: 0.51
   vrEnvironmentParent: {fileID: 0}
-  vrSkyboxMaterial: {fileID: 2100000, guid: 58b21b67b0aff438ab7568f1d46ee7cb, type: 2}
+  vrSkyboxMaterial: {fileID: 2100000, guid: 8b7dd0809c7c6498789fa32a61eaa6cb, type: 2}
   vrDirectionalLight: {fileID: 0}
   useInvertedSphere: 0
   sphereRenderer: {fileID: 0}
@@ -98642,7 +98646,7 @@ MonoBehaviour:
   _doublePinchMaxDelay: 0.4
   _scaleDownDuration: 1
   _effectPrefab: {fileID: 6496764004602965790, guid: fe81ddff006f38a449da11b73d6db8f3, type: 3}
-  _parentForEffect: {fileID: 1299899970}
+  _parentForEffect: {fileID: 347405591}
   _audioClip: {fileID: 8300000, guid: d857c221072d92344af4f7998beccbe6, type: 3}
 --- !u!82 &542324958
 AudioSource:
@@ -104948,8 +104952,8 @@ Transform:
   m_GameObject: {fileID: 602824472}
   serializedVersion: 2
   m_LocalRotation: {x: 0.88221824, y: 0.000000004713261, z: 0.4708408, w: -0.00000013817267}
-  m_LocalPosition: {x: 0.01, y: -0.476, z: -0.016}
-  m_LocalScale: {x: 0.09999993, y: 0.09999999, z: 0.09999996}
+  m_LocalPosition: {x: 0.01, y: -0.6, z: -0.016}
+  m_LocalScale: {x: 0.15, y: 0.15, z: 0.15}
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 72083875}
@@ -120095,7 +120099,7 @@ MonoBehaviour:
   _doublePinchMaxDelay: 0.4
   _scaleDownDuration: 1
   _effectPrefab: {fileID: 6496764004602965790, guid: fe81ddff006f38a449da11b73d6db8f3, type: 3}
-  _parentForEffect: {fileID: 1299899970}
+  _parentForEffect: {fileID: 347405591}
   _audioClip: {fileID: 8300000, guid: d857c221072d92344af4f7998beccbe6, type: 3}
 --- !u!1001 &692572372
 PrefabInstance:
@@ -125226,7 +125230,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 07bb50a698f874d0ea388fcddd61b09f, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 265574f9ec3e00547a056463ad582818, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -130537,7 +130541,7 @@ MonoBehaviour:
   _doublePinchMaxDelay: 0.4
   _scaleDownDuration: 1
   _effectPrefab: {fileID: 6496764004602965790, guid: fe81ddff006f38a449da11b73d6db8f3, type: 3}
-  _parentForEffect: {fileID: 1299899970}
+  _parentForEffect: {fileID: 347405591}
   _audioClip: {fileID: 8300000, guid: d857c221072d92344af4f7998beccbe6, type: 3}
 --- !u!1 &751587923
 GameObject:
@@ -151337,6 +151341,10 @@ PrefabInstance:
       value: 70.205
       objectReference: {fileID: 0}
     - target: {fileID: -7511558181221131132, guid: a5883e0c77f5b48cdb5fdcea1623570e, type: 3}
+      propertyPath: m_ReceiveShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: a5883e0c77f5b48cdb5fdcea1623570e, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 61c31048e26924ac89c5012a4964e102, type: 2}
@@ -151459,12 +151467,12 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: ef4965538a2e24e7ba51bfde5e42c9ef, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 8ad7178d42f82b7419d255b6ce5bd853, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 6.71, y: 7.2}
+  m_Size: {x: 14.99, y: 5.7}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -200963,7 +200971,7 @@ MonoBehaviour:
   _doublePinchMaxDelay: 0.4
   _scaleDownDuration: 1
   _effectPrefab: {fileID: 6496764004602965790, guid: fe81ddff006f38a449da11b73d6db8f3, type: 3}
-  _parentForEffect: {fileID: 1299899970}
+  _parentForEffect: {fileID: 347405591}
   _audioClip: {fileID: 8300000, guid: d857c221072d92344af4f7998beccbe6, type: 3}
 --- !u!82 &979714163
 AudioSource:
@@ -216194,6 +216202,10 @@ PrefabInstance:
       value: 278.76898
       objectReference: {fileID: 0}
     - target: {fileID: -7511558181221131132, guid: a5883e0c77f5b48cdb5fdcea1623570e, type: 3}
+      propertyPath: m_ReceiveShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: a5883e0c77f5b48cdb5fdcea1623570e, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 61c31048e26924ac89c5012a4964e102, type: 2}
@@ -216465,12 +216477,12 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 47c94901df3ad40fe8feeaa31efa2ba6, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 6be888ed41ffa9f498d10f434e48eec9, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 6.71, y: 7.2}
+  m_Size: {x: 10.84, y: 4.6}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -221778,7 +221790,7 @@ MonoBehaviour:
   _doublePinchMaxDelay: 0.4
   _scaleDownDuration: 1
   _effectPrefab: {fileID: 6496764004602965790, guid: fe81ddff006f38a449da11b73d6db8f3, type: 3}
-  _parentForEffect: {fileID: 1299899970}
+  _parentForEffect: {fileID: 347405591}
   _audioClip: {fileID: 8300000, guid: d857c221072d92344af4f7998beccbe6, type: 3}
 --- !u!82 &1090194153
 AudioSource:
@@ -226906,7 +226918,7 @@ MonoBehaviour:
   _doublePinchMaxDelay: 0.4
   _scaleDownDuration: 1
   _effectPrefab: {fileID: 6496764004602965790, guid: fe81ddff006f38a449da11b73d6db8f3, type: 3}
-  _parentForEffect: {fileID: 1299899970}
+  _parentForEffect: {fileID: 347405591}
   _audioClip: {fileID: 8300000, guid: d857c221072d92344af4f7998beccbe6, type: 3}
 --- !u!1 &1113014575
 GameObject:
@@ -227214,7 +227226,7 @@ MonoBehaviour:
   _doublePinchMaxDelay: 0.4
   _scaleDownDuration: 1
   _effectPrefab: {fileID: 6496764004602965790, guid: fe81ddff006f38a449da11b73d6db8f3, type: 3}
-  _parentForEffect: {fileID: 1299899970}
+  _parentForEffect: {fileID: 347405591}
   _audioClip: {fileID: 8300000, guid: d857c221072d92344af4f7998beccbe6, type: 3}
 --- !u!82 &1118090172
 AudioSource:
@@ -232643,7 +232655,7 @@ MonoBehaviour:
   _doublePinchMaxDelay: 0.4
   _scaleDownDuration: 1
   _effectPrefab: {fileID: 6496764004602965790, guid: fe81ddff006f38a449da11b73d6db8f3, type: 3}
-  _parentForEffect: {fileID: 1299899970}
+  _parentForEffect: {fileID: 347405591}
   _audioClip: {fileID: 8300000, guid: d857c221072d92344af4f7998beccbe6, type: 3}
 --- !u!82 &1134855744
 AudioSource:
@@ -253850,8 +253862,8 @@ Transform:
   m_GameObject: {fileID: 1299168727}
   serializedVersion: 2
   m_LocalRotation: {x: 0.88221824, y: 0.000000004713261, z: 0.4708408, w: -0.00000013817267}
-  m_LocalPosition: {x: 0.01, y: -0.476, z: -0.016}
-  m_LocalScale: {x: 0.09999993, y: 0.09999999, z: 0.09999996}
+  m_LocalPosition: {x: 0.01, y: -0.6, z: -0.016}
+  m_LocalScale: {x: 0.15, y: 0.15, z: 0.15}
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 72083875}
@@ -254139,7 +254151,7 @@ PrefabInstance:
     - target: {fileID: 7086340257990859, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 34754108196616413, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _effectPrefab
       value: 
@@ -254147,7 +254159,7 @@ PrefabInstance:
     - target: {fileID: 34754108196616413, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 45918962130961070, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _hand
       value: 
@@ -254159,7 +254171,7 @@ PrefabInstance:
     - target: {fileID: 45918962130961070, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 48530266818412983, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _effectPrefab
       value: 
@@ -254167,7 +254179,7 @@ PrefabInstance:
     - target: {fileID: 48530266818412983, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 71610838843542242, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _hand
       value: 
@@ -254179,7 +254191,7 @@ PrefabInstance:
     - target: {fileID: 71610838843542242, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 76911944494177095, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: m_IsActive
       value: 0
@@ -254195,7 +254207,7 @@ PrefabInstance:
     - target: {fileID: 93415154587413396, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 122676082716298681, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _hand
       value: 
@@ -254207,7 +254219,7 @@ PrefabInstance:
     - target: {fileID: 122676082716298681, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 141550556900351189, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _effectPrefab
       value: 
@@ -254215,7 +254227,7 @@ PrefabInstance:
     - target: {fileID: 141550556900351189, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 160590939874418627, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _effectPrefab
       value: 
@@ -254223,7 +254235,7 @@ PrefabInstance:
     - target: {fileID: 160590939874418627, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 182012699557320559, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _effectPrefab
       value: 
@@ -254231,7 +254243,7 @@ PrefabInstance:
     - target: {fileID: 182012699557320559, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 212991287470803543, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: m_IsActive
       value: 0
@@ -254251,7 +254263,7 @@ PrefabInstance:
     - target: {fileID: 234027894459655575, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 285849074579877368, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _effectPrefab
       value: 
@@ -254259,7 +254271,7 @@ PrefabInstance:
     - target: {fileID: 285849074579877368, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 296759311344520630, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _effectPrefab
       value: 
@@ -254267,7 +254279,7 @@ PrefabInstance:
     - target: {fileID: 296759311344520630, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 316721927764053282, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: m_IsActive
       value: 0
@@ -254279,7 +254291,7 @@ PrefabInstance:
     - target: {fileID: 325458159448983957, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 393899476394598838, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _effectPrefab
       value: 
@@ -254287,7 +254299,7 @@ PrefabInstance:
     - target: {fileID: 393899476394598838, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 397101922967740666, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: m_IsActive
       value: 0
@@ -254299,7 +254311,7 @@ PrefabInstance:
     - target: {fileID: 411137448637013426, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 418514629749532700, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _hand
       value: 
@@ -254311,7 +254323,7 @@ PrefabInstance:
     - target: {fileID: 418514629749532700, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 455523146609992605, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _effectPrefab
       value: 
@@ -254319,7 +254331,7 @@ PrefabInstance:
     - target: {fileID: 455523146609992605, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 466054537158646992, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _effectPrefab
       value: 
@@ -254327,7 +254339,7 @@ PrefabInstance:
     - target: {fileID: 466054537158646992, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 488361371498022307, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _effectPrefab
       value: 
@@ -254335,7 +254347,7 @@ PrefabInstance:
     - target: {fileID: 488361371498022307, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 506853932338311208, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: m_IsActive
       value: 0
@@ -254347,7 +254359,7 @@ PrefabInstance:
     - target: {fileID: 512952385302211732, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 537386139759141678, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _effectPrefab
       value: 
@@ -254355,7 +254367,7 @@ PrefabInstance:
     - target: {fileID: 537386139759141678, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 572747886108109597, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _effectPrefab
       value: 
@@ -254363,7 +254375,7 @@ PrefabInstance:
     - target: {fileID: 572747886108109597, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 579616801031852329, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _hand
       value: 
@@ -254375,7 +254387,7 @@ PrefabInstance:
     - target: {fileID: 579616801031852329, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 596001079458991273, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _effectPrefab
       value: 
@@ -254383,7 +254395,7 @@ PrefabInstance:
     - target: {fileID: 596001079458991273, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 687308200448995612, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _effectPrefab
       value: 
@@ -254391,7 +254403,7 @@ PrefabInstance:
     - target: {fileID: 687308200448995612, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 734036956285498461, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: m_IsActive
       value: 0
@@ -254403,7 +254415,7 @@ PrefabInstance:
     - target: {fileID: 735804722696481155, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 738673400647977772, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _hand
       value: 
@@ -254415,7 +254427,7 @@ PrefabInstance:
     - target: {fileID: 738673400647977772, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 787831791875416727, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _effectPrefab
       value: 
@@ -254423,7 +254435,7 @@ PrefabInstance:
     - target: {fileID: 787831791875416727, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 813528327298693938, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _effectPrefab
       value: 
@@ -254431,7 +254443,7 @@ PrefabInstance:
     - target: {fileID: 813528327298693938, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 817757747998553513, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: m_IsActive
       value: 0
@@ -254443,7 +254455,7 @@ PrefabInstance:
     - target: {fileID: 821013406822792835, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 828897378614076630, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _effectPrefab
       value: 
@@ -254451,7 +254463,7 @@ PrefabInstance:
     - target: {fileID: 828897378614076630, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 922458317669213861, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: m_IsActive
       value: 0
@@ -254467,7 +254479,7 @@ PrefabInstance:
     - target: {fileID: 953427038445638205, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 974328386436386350, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: m_IsActive
       value: 0
@@ -254479,7 +254491,7 @@ PrefabInstance:
     - target: {fileID: 979562573084102883, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 990901528681252867, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _effectPrefab
       value: 
@@ -254487,7 +254499,7 @@ PrefabInstance:
     - target: {fileID: 990901528681252867, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 997006804087793403, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _hand
       value: 
@@ -254499,7 +254511,7 @@ PrefabInstance:
     - target: {fileID: 997006804087793403, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 1007445899148975230, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _effectPrefab
       value: 
@@ -254507,7 +254519,7 @@ PrefabInstance:
     - target: {fileID: 1007445899148975230, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 1022994453822902148, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _effectPrefab
       value: 
@@ -254515,7 +254527,7 @@ PrefabInstance:
     - target: {fileID: 1022994453822902148, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 1033293826342657286, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _effectPrefab
       value: 
@@ -254523,7 +254535,7 @@ PrefabInstance:
     - target: {fileID: 1033293826342657286, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 1057791201969049721, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _effectPrefab
       value: 
@@ -254531,7 +254543,7 @@ PrefabInstance:
     - target: {fileID: 1057791201969049721, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 1061574036099375739, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _hand
       value: 
@@ -254543,7 +254555,7 @@ PrefabInstance:
     - target: {fileID: 1061574036099375739, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 1063557093119181280, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _hand
       value: 
@@ -254555,7 +254567,7 @@ PrefabInstance:
     - target: {fileID: 1063557093119181280, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 1063712921963724845, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _effectPrefab
       value: 
@@ -254563,7 +254575,7 @@ PrefabInstance:
     - target: {fileID: 1063712921963724845, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 1085958730490982047, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _effectPrefab
       value: 
@@ -254571,7 +254583,7 @@ PrefabInstance:
     - target: {fileID: 1085958730490982047, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 1089685529630753031, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _effectPrefab
       value: 
@@ -254579,7 +254591,7 @@ PrefabInstance:
     - target: {fileID: 1089685529630753031, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 1100009304568315640, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _hand
       value: 
@@ -254591,7 +254603,7 @@ PrefabInstance:
     - target: {fileID: 1100009304568315640, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 1126776699605821702, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _effectPrefab
       value: 
@@ -254599,7 +254611,7 @@ PrefabInstance:
     - target: {fileID: 1126776699605821702, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 1134682982474875028, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: m_IsActive
       value: 0
@@ -254619,7 +254631,7 @@ PrefabInstance:
     - target: {fileID: 1208478461904913038, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 1223707796406953981, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _hand
       value: 
@@ -254631,7 +254643,7 @@ PrefabInstance:
     - target: {fileID: 1223707796406953981, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 1230991568352196327, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _effectPrefab
       value: 
@@ -254639,7 +254651,7 @@ PrefabInstance:
     - target: {fileID: 1230991568352196327, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 1246564956598134669, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _effectPrefab
       value: 
@@ -254647,7 +254659,7 @@ PrefabInstance:
     - target: {fileID: 1246564956598134669, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 1284752209686140884, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: m_IsActive
       value: 0
@@ -254659,7 +254671,7 @@ PrefabInstance:
     - target: {fileID: 1316988238703768582, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 1332990153684926130, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _effectPrefab
       value: 
@@ -254667,7 +254679,7 @@ PrefabInstance:
     - target: {fileID: 1332990153684926130, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 1334244041177413929, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _effectPrefab
       value: 
@@ -254675,7 +254687,7 @@ PrefabInstance:
     - target: {fileID: 1334244041177413929, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 1343503260866783839, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _effectPrefab
       value: 
@@ -254683,7 +254695,7 @@ PrefabInstance:
     - target: {fileID: 1343503260866783839, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 1386158021881243271, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _effectPrefab
       value: 
@@ -254691,7 +254703,7 @@ PrefabInstance:
     - target: {fileID: 1386158021881243271, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 1386547266512753463, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _hand
       value: 
@@ -254703,7 +254715,7 @@ PrefabInstance:
     - target: {fileID: 1386547266512753463, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 1387059704617192158, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: m_IsActive
       value: 0
@@ -254723,7 +254735,7 @@ PrefabInstance:
     - target: {fileID: 1416495171204624153, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 1491114463343821754, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _hand
       value: 
@@ -254735,7 +254747,7 @@ PrefabInstance:
     - target: {fileID: 1491114463343821754, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 1495636210264338344, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _effectPrefab
       value: 
@@ -254743,7 +254755,7 @@ PrefabInstance:
     - target: {fileID: 1495636210264338344, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 1503809948847617368, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _effectPrefab
       value: 
@@ -254751,7 +254763,7 @@ PrefabInstance:
     - target: {fileID: 1503809948847617368, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 1510762434926163157, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: m_IsActive
       value: 0
@@ -254767,7 +254779,7 @@ PrefabInstance:
     - target: {fileID: 1522222728911729615, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 1538543988083918514, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: m_IsActive
       value: 0
@@ -254779,7 +254791,7 @@ PrefabInstance:
     - target: {fileID: 1564675438575771704, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 1586126763490615608, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _effectPrefab
       value: 
@@ -254787,7 +254799,7 @@ PrefabInstance:
     - target: {fileID: 1586126763490615608, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 1592004498536580086, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _effectPrefab
       value: 
@@ -254795,7 +254807,7 @@ PrefabInstance:
     - target: {fileID: 1592004498536580086, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 1593112621362090622, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _effectPrefab
       value: 
@@ -254803,7 +254815,7 @@ PrefabInstance:
     - target: {fileID: 1593112621362090622, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 1619369518579783443, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _effectPrefab
       value: 
@@ -254811,7 +254823,7 @@ PrefabInstance:
     - target: {fileID: 1619369518579783443, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 1667911290698067344, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: m_IsActive
       value: 0
@@ -254827,7 +254839,7 @@ PrefabInstance:
     - target: {fileID: 1674340636344151141, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 1697591389904145156, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _effectPrefab
       value: 
@@ -254835,7 +254847,7 @@ PrefabInstance:
     - target: {fileID: 1697591389904145156, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 1700846760810579760, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: m_IsActive
       value: 0
@@ -254851,7 +254863,7 @@ PrefabInstance:
     - target: {fileID: 1731189365826741459, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 1732599961032276172, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _effectPrefab
       value: 
@@ -254859,7 +254871,7 @@ PrefabInstance:
     - target: {fileID: 1732599961032276172, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 1765932786933141698, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: m_IsActive
       value: 0
@@ -254871,7 +254883,7 @@ PrefabInstance:
     - target: {fileID: 1819970448648425663, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 1822424872666230098, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _hand
       value: 
@@ -254883,7 +254895,7 @@ PrefabInstance:
     - target: {fileID: 1822424872666230098, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 1831561822432208576, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _effectPrefab
       value: 
@@ -254891,7 +254903,7 @@ PrefabInstance:
     - target: {fileID: 1831561822432208576, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 1835288233180558700, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _effectPrefab
       value: 
@@ -254899,7 +254911,7 @@ PrefabInstance:
     - target: {fileID: 1835288233180558700, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 1859126522672207499, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: m_IsActive
       value: 0
@@ -254915,7 +254927,7 @@ PrefabInstance:
     - target: {fileID: 1885363992783053418, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 1916695487181472425, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _hand
       value: 
@@ -254927,7 +254939,7 @@ PrefabInstance:
     - target: {fileID: 1916695487181472425, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 1916837312767066363, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _effectPrefab
       value: 
@@ -254935,7 +254947,7 @@ PrefabInstance:
     - target: {fileID: 1916837312767066363, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 1937880568491005382, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _effectPrefab
       value: 
@@ -254943,7 +254955,7 @@ PrefabInstance:
     - target: {fileID: 1937880568491005382, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 1943860421949993608, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _hand
       value: 
@@ -254955,7 +254967,7 @@ PrefabInstance:
     - target: {fileID: 1943860421949993608, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 1945598746971215267, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _hand
       value: 
@@ -254967,7 +254979,7 @@ PrefabInstance:
     - target: {fileID: 1945598746971215267, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 1952289953539606769, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _effectPrefab
       value: 
@@ -254975,7 +254987,7 @@ PrefabInstance:
     - target: {fileID: 1952289953539606769, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 1988618652261321889, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: m_IsActive
       value: 0
@@ -254987,7 +254999,7 @@ PrefabInstance:
     - target: {fileID: 1991093467294716506, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 2000543032637900645, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: m_IsActive
       value: 0
@@ -254999,7 +255011,7 @@ PrefabInstance:
     - target: {fileID: 2022375693632684589, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 2033904327911509074, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _effectPrefab
       value: 
@@ -255007,7 +255019,7 @@ PrefabInstance:
     - target: {fileID: 2033904327911509074, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 2043856849209690374, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _effectPrefab
       value: 
@@ -255015,7 +255027,7 @@ PrefabInstance:
     - target: {fileID: 2043856849209690374, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 2065239688981430585, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _effectPrefab
       value: 
@@ -255023,7 +255035,7 @@ PrefabInstance:
     - target: {fileID: 2065239688981430585, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 2083417699604243342, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _effectPrefab
       value: 
@@ -255031,7 +255043,7 @@ PrefabInstance:
     - target: {fileID: 2083417699604243342, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 2110927350844096500, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _effectPrefab
       value: 
@@ -255039,7 +255051,7 @@ PrefabInstance:
     - target: {fileID: 2110927350844096500, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 2113849592340861415, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: m_IsActive
       value: 0
@@ -255051,7 +255063,7 @@ PrefabInstance:
     - target: {fileID: 2142621293750934903, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 2152573135982020292, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _effectPrefab
       value: 
@@ -255059,7 +255071,7 @@ PrefabInstance:
     - target: {fileID: 2152573135982020292, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 2187131953098664478, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _effectPrefab
       value: 
@@ -255067,7 +255079,7 @@ PrefabInstance:
     - target: {fileID: 2187131953098664478, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 2187271349336920315, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: m_IsActive
       value: 0
@@ -255087,7 +255099,7 @@ PrefabInstance:
     - target: {fileID: 2203618846124439887, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 2223626605559754003, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _effectPrefab
       value: 
@@ -255095,7 +255107,7 @@ PrefabInstance:
     - target: {fileID: 2223626605559754003, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 2227542563555974840, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _effectPrefab
       value: 
@@ -255103,7 +255115,7 @@ PrefabInstance:
     - target: {fileID: 2227542563555974840, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 2263313627218973742, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _effectPrefab
       value: 
@@ -255111,7 +255123,7 @@ PrefabInstance:
     - target: {fileID: 2263313627218973742, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 2267057178570315337, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _effectPrefab
       value: 
@@ -255119,7 +255131,7 @@ PrefabInstance:
     - target: {fileID: 2267057178570315337, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 2274520085037240171, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _effectPrefab
       value: 
@@ -255127,7 +255139,7 @@ PrefabInstance:
     - target: {fileID: 2274520085037240171, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 2276095461981940619, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _effectPrefab
       value: 
@@ -255135,7 +255147,7 @@ PrefabInstance:
     - target: {fileID: 2276095461981940619, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 2291511641618484239, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _effectPrefab
       value: 
@@ -255143,7 +255155,7 @@ PrefabInstance:
     - target: {fileID: 2291511641618484239, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 2309679413643238324, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _effectPrefab
       value: 
@@ -255151,7 +255163,7 @@ PrefabInstance:
     - target: {fileID: 2309679413643238324, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 2327599497616796424, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _effectPrefab
       value: 
@@ -255159,7 +255171,7 @@ PrefabInstance:
     - target: {fileID: 2327599497616796424, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 2350584816879235530, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _effectPrefab
       value: 
@@ -255167,7 +255179,7 @@ PrefabInstance:
     - target: {fileID: 2350584816879235530, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 2353254721856034677, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: m_IsActive
       value: 0
@@ -255183,7 +255195,7 @@ PrefabInstance:
     - target: {fileID: 2356243294215101812, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 2371880520697480537, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: m_IsActive
       value: 0
@@ -255195,7 +255207,7 @@ PrefabInstance:
     - target: {fileID: 2384748653986046199, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 2407320561462541741, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _hand
       value: 
@@ -255207,7 +255219,7 @@ PrefabInstance:
     - target: {fileID: 2407320561462541741, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 2436083901803337820, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _hand
       value: 
@@ -255219,7 +255231,7 @@ PrefabInstance:
     - target: {fileID: 2436083901803337820, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 2472769570914189061, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _effectPrefab
       value: 
@@ -255227,7 +255239,7 @@ PrefabInstance:
     - target: {fileID: 2472769570914189061, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 2498353988001360116, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: m_Name
       value: Tree
@@ -255243,7 +255255,7 @@ PrefabInstance:
     - target: {fileID: 2525244427070092208, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 2528919960572351513, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _effectPrefab
       value: 
@@ -255251,7 +255263,7 @@ PrefabInstance:
     - target: {fileID: 2528919960572351513, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 2539357010285592178, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _hand
       value: 
@@ -255263,7 +255275,7 @@ PrefabInstance:
     - target: {fileID: 2539357010285592178, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 2591895100618775768, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _effectPrefab
       value: 
@@ -255271,7 +255283,7 @@ PrefabInstance:
     - target: {fileID: 2591895100618775768, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 2641072352710318858, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: m_IsActive
       value: 0
@@ -255287,7 +255299,7 @@ PrefabInstance:
     - target: {fileID: 2650640214569129341, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 2684445739344649307, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _effectPrefab
       value: 
@@ -255295,7 +255307,7 @@ PrefabInstance:
     - target: {fileID: 2684445739344649307, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 2703202628158222893, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _hand
       value: 
@@ -255307,7 +255319,7 @@ PrefabInstance:
     - target: {fileID: 2703202628158222893, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 2722439431853353063, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _hand
       value: 
@@ -255319,7 +255331,7 @@ PrefabInstance:
     - target: {fileID: 2722439431853353063, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 2723497677202545115, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: m_IsActive
       value: 0
@@ -255335,7 +255347,7 @@ PrefabInstance:
     - target: {fileID: 2756421867811373160, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 2757572210092835454, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _effectPrefab
       value: 
@@ -255343,7 +255355,7 @@ PrefabInstance:
     - target: {fileID: 2757572210092835454, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 2769199417207985998, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: m_IsActive
       value: 0
@@ -255359,7 +255371,7 @@ PrefabInstance:
     - target: {fileID: 2784694460922240747, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 2791481223498042169, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _effectPrefab
       value: 
@@ -255367,7 +255379,7 @@ PrefabInstance:
     - target: {fileID: 2791481223498042169, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 2805498379255959952, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: m_IsActive
       value: 0
@@ -255379,7 +255391,7 @@ PrefabInstance:
     - target: {fileID: 2841670080950452239, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 2849818964122568081, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _effectPrefab
       value: 
@@ -255387,7 +255399,7 @@ PrefabInstance:
     - target: {fileID: 2849818964122568081, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 2869291038478824513, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: m_IsActive
       value: 0
@@ -255399,7 +255411,7 @@ PrefabInstance:
     - target: {fileID: 2911451597904913209, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 2913075045159112641, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _effectPrefab
       value: 
@@ -255407,7 +255419,7 @@ PrefabInstance:
     - target: {fileID: 2913075045159112641, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 2918928450090363574, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _hand
       value: 
@@ -255419,7 +255431,7 @@ PrefabInstance:
     - target: {fileID: 2918928450090363574, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 2921244996539134452, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _effectPrefab
       value: 
@@ -255427,7 +255439,7 @@ PrefabInstance:
     - target: {fileID: 2921244996539134452, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 2941270418734332021, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _effectPrefab
       value: 
@@ -255435,22 +255447,34 @@ PrefabInstance:
     - target: {fileID: 2941270418734332021, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 2999150103543327913, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3017481137693930062, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3017481137693930062, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3017481137693930062, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3017481137693930062, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.758
+      value: -0.486
       objectReference: {fileID: 0}
     - target: {fileID: 3017481137693930062, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.006447844
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3017481137693930062, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0.404
+      value: 0.581
       objectReference: {fileID: 0}
     - target: {fileID: 3017481137693930062, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: m_LocalRotation.w
@@ -255487,7 +255511,7 @@ PrefabInstance:
     - target: {fileID: 3018645757503303211, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 3042257782935281653, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _effectPrefab
       value: 
@@ -255495,7 +255519,7 @@ PrefabInstance:
     - target: {fileID: 3042257782935281653, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 3055283220968141549, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _effectPrefab
       value: 
@@ -255503,7 +255527,7 @@ PrefabInstance:
     - target: {fileID: 3055283220968141549, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 3058922998326834465, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: m_IsActive
       value: 1
@@ -255515,7 +255539,7 @@ PrefabInstance:
     - target: {fileID: 3066768431701829522, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 3092972323172488774, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _effectPrefab
       value: 
@@ -255523,7 +255547,7 @@ PrefabInstance:
     - target: {fileID: 3092972323172488774, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 3123182294405184478, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _effectPrefab
       value: 
@@ -255531,7 +255555,7 @@ PrefabInstance:
     - target: {fileID: 3123182294405184478, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 3132010038880565701, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _effectPrefab
       value: 
@@ -255539,7 +255563,7 @@ PrefabInstance:
     - target: {fileID: 3132010038880565701, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 3134116356244424329, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _hand
       value: 
@@ -255551,7 +255575,7 @@ PrefabInstance:
     - target: {fileID: 3134116356244424329, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 3141978990788660852, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _effectPrefab
       value: 
@@ -255559,7 +255583,7 @@ PrefabInstance:
     - target: {fileID: 3141978990788660852, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 3142649266033131290, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _effectPrefab
       value: 
@@ -255567,7 +255591,7 @@ PrefabInstance:
     - target: {fileID: 3142649266033131290, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 3150389070633554249, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: m_IsActive
       value: 0
@@ -255587,7 +255611,7 @@ PrefabInstance:
     - target: {fileID: 3177445043004313400, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 3259648232499048868, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _hand
       value: 
@@ -255599,7 +255623,7 @@ PrefabInstance:
     - target: {fileID: 3259648232499048868, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 3273107780945371503, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _effectPrefab
       value: 
@@ -255607,7 +255631,7 @@ PrefabInstance:
     - target: {fileID: 3273107780945371503, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 3279831453981324086, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _effectPrefab
       value: 
@@ -255615,7 +255639,7 @@ PrefabInstance:
     - target: {fileID: 3279831453981324086, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 3290706318963142001, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _effectPrefab
       value: 
@@ -255623,7 +255647,7 @@ PrefabInstance:
     - target: {fileID: 3290706318963142001, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 3303587298178531044, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _effectPrefab
       value: 
@@ -255631,7 +255655,7 @@ PrefabInstance:
     - target: {fileID: 3303587298178531044, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 3317525752115069289, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _effectPrefab
       value: 
@@ -255639,7 +255663,7 @@ PrefabInstance:
     - target: {fileID: 3317525752115069289, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 3323292037745745963, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: m_IsActive
       value: 0
@@ -255651,7 +255675,7 @@ PrefabInstance:
     - target: {fileID: 3337313344167153751, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 3351864734371978546, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _hand
       value: 
@@ -255663,7 +255687,7 @@ PrefabInstance:
     - target: {fileID: 3351864734371978546, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 3354683170499155011, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _effectPrefab
       value: 
@@ -255671,7 +255695,7 @@ PrefabInstance:
     - target: {fileID: 3354683170499155011, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 3365010351883473559, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: m_IsActive
       value: 0
@@ -255683,7 +255707,7 @@ PrefabInstance:
     - target: {fileID: 3369103331967933683, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 3389838539029955214, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _effectPrefab
       value: 
@@ -255691,7 +255715,7 @@ PrefabInstance:
     - target: {fileID: 3389838539029955214, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 3389851735990812426, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _effectPrefab
       value: 
@@ -255699,7 +255723,7 @@ PrefabInstance:
     - target: {fileID: 3389851735990812426, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 3403207246481977239, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _effectPrefab
       value: 
@@ -255707,7 +255731,7 @@ PrefabInstance:
     - target: {fileID: 3403207246481977239, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 3410828288162524853, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _hand
       value: 
@@ -255719,7 +255743,7 @@ PrefabInstance:
     - target: {fileID: 3410828288162524853, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 3422617094984886741, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _hand
       value: 
@@ -255731,7 +255755,7 @@ PrefabInstance:
     - target: {fileID: 3422617094984886741, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 3449583299503370426, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: m_IsActive
       value: 0
@@ -255743,7 +255767,7 @@ PrefabInstance:
     - target: {fileID: 3468791700474186321, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 3534493632127202131, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _hand
       value: 
@@ -255755,7 +255779,7 @@ PrefabInstance:
     - target: {fileID: 3534493632127202131, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 3548014099801741160, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _effectPrefab
       value: 
@@ -255763,7 +255787,7 @@ PrefabInstance:
     - target: {fileID: 3548014099801741160, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 3605644315376378333, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _effectPrefab
       value: 
@@ -255771,7 +255795,7 @@ PrefabInstance:
     - target: {fileID: 3605644315376378333, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 3614841193074774198, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _effectPrefab
       value: 
@@ -255779,7 +255803,7 @@ PrefabInstance:
     - target: {fileID: 3614841193074774198, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 3618759668736474493, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _effectPrefab
       value: 
@@ -255787,7 +255811,7 @@ PrefabInstance:
     - target: {fileID: 3618759668736474493, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 3619481069648975694, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _effectPrefab
       value: 
@@ -255795,7 +255819,7 @@ PrefabInstance:
     - target: {fileID: 3619481069648975694, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 3668792396382773247, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _effectPrefab
       value: 
@@ -255803,7 +255827,7 @@ PrefabInstance:
     - target: {fileID: 3668792396382773247, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 3679850963108954967, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _hand
       value: 
@@ -255815,7 +255839,7 @@ PrefabInstance:
     - target: {fileID: 3679850963108954967, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 3683657217990930530, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _hand
       value: 
@@ -255827,7 +255851,7 @@ PrefabInstance:
     - target: {fileID: 3683657217990930530, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 3694161113403607459, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _effectPrefab
       value: 
@@ -255835,7 +255859,7 @@ PrefabInstance:
     - target: {fileID: 3694161113403607459, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 3696827069075168488, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _effectPrefab
       value: 
@@ -255843,7 +255867,7 @@ PrefabInstance:
     - target: {fileID: 3696827069075168488, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 3707925676160415637, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _hand
       value: 
@@ -255855,7 +255879,7 @@ PrefabInstance:
     - target: {fileID: 3707925676160415637, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 3709505882089778988, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _effectPrefab
       value: 
@@ -255863,7 +255887,7 @@ PrefabInstance:
     - target: {fileID: 3709505882089778988, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 3723250381937338250, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _hand
       value: 
@@ -255875,7 +255899,7 @@ PrefabInstance:
     - target: {fileID: 3723250381937338250, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 3734922418344312675, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _effectPrefab
       value: 
@@ -255883,7 +255907,7 @@ PrefabInstance:
     - target: {fileID: 3734922418344312675, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 3762703587399156719, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _hand
       value: 
@@ -255895,7 +255919,7 @@ PrefabInstance:
     - target: {fileID: 3762703587399156719, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 3817499870549674441, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _effectPrefab
       value: 
@@ -255903,7 +255927,7 @@ PrefabInstance:
     - target: {fileID: 3817499870549674441, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 3837152324940469440, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: m_IsActive
       value: 0
@@ -255915,7 +255939,7 @@ PrefabInstance:
     - target: {fileID: 3858335944510537760, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 3860015331936832680, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _effectPrefab
       value: 
@@ -255923,7 +255947,7 @@ PrefabInstance:
     - target: {fileID: 3860015331936832680, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 3866296660949699024, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _hand
       value: 
@@ -255935,7 +255959,7 @@ PrefabInstance:
     - target: {fileID: 3866296660949699024, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 3870318736493119846, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: m_IsActive
       value: 0
@@ -255951,7 +255975,7 @@ PrefabInstance:
     - target: {fileID: 3876963179286975482, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 3930362657047986987, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _effectPrefab
       value: 
@@ -255959,7 +255983,7 @@ PrefabInstance:
     - target: {fileID: 3930362657047986987, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 3945611289679874639, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _effectPrefab
       value: 
@@ -255967,7 +255991,7 @@ PrefabInstance:
     - target: {fileID: 3945611289679874639, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 3963881230553352553, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _hand
       value: 
@@ -255979,7 +256003,7 @@ PrefabInstance:
     - target: {fileID: 3963881230553352553, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 3989065211946650611, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _effectPrefab
       value: 
@@ -255987,7 +256011,7 @@ PrefabInstance:
     - target: {fileID: 3989065211946650611, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 4026642039083190434, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _hand
       value: 
@@ -255999,7 +256023,7 @@ PrefabInstance:
     - target: {fileID: 4026642039083190434, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 4035317257722828964, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _effectPrefab
       value: 
@@ -256007,7 +256031,7 @@ PrefabInstance:
     - target: {fileID: 4035317257722828964, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 4037303757411767233, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _effectPrefab
       value: 
@@ -256015,7 +256039,7 @@ PrefabInstance:
     - target: {fileID: 4037303757411767233, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 4104473966811287122, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: m_IsActive
       value: 0
@@ -256035,7 +256059,7 @@ PrefabInstance:
     - target: {fileID: 4165497241612126658, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 4169319429676823076, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: m_IsActive
       value: 0
@@ -256047,7 +256071,7 @@ PrefabInstance:
     - target: {fileID: 4180218440131320333, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 4229445043823411688, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _effectPrefab
       value: 
@@ -256055,7 +256079,7 @@ PrefabInstance:
     - target: {fileID: 4229445043823411688, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 4247325803126298449, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _effectPrefab
       value: 
@@ -256063,7 +256087,7 @@ PrefabInstance:
     - target: {fileID: 4247325803126298449, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 4255249676272296224, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _effectPrefab
       value: 
@@ -256071,7 +256095,7 @@ PrefabInstance:
     - target: {fileID: 4255249676272296224, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 4332975592915715796, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _effectPrefab
       value: 
@@ -256079,7 +256103,7 @@ PrefabInstance:
     - target: {fileID: 4332975592915715796, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 4334438786268703786, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _hand
       value: 
@@ -256091,7 +256115,7 @@ PrefabInstance:
     - target: {fileID: 4334438786268703786, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 4352419017685260635, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: m_IsActive
       value: 0
@@ -256103,7 +256127,7 @@ PrefabInstance:
     - target: {fileID: 4398021166347906084, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 4412106428945038270, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _hand
       value: 
@@ -256115,7 +256139,7 @@ PrefabInstance:
     - target: {fileID: 4412106428945038270, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 4424258458767640400, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _effectPrefab
       value: 
@@ -256123,7 +256147,7 @@ PrefabInstance:
     - target: {fileID: 4424258458767640400, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 4426184960867714243, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _hand
       value: 
@@ -256135,7 +256159,7 @@ PrefabInstance:
     - target: {fileID: 4426184960867714243, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 4459223302991493565, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _hand
       value: 
@@ -256147,7 +256171,7 @@ PrefabInstance:
     - target: {fileID: 4459223302991493565, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 4472153802727217926, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _hand
       value: 
@@ -256159,7 +256183,7 @@ PrefabInstance:
     - target: {fileID: 4472153802727217926, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 4474402222040060904, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _effectPrefab
       value: 
@@ -256167,7 +256191,7 @@ PrefabInstance:
     - target: {fileID: 4474402222040060904, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 4493518502637500305, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _effectPrefab
       value: 
@@ -256175,7 +256199,7 @@ PrefabInstance:
     - target: {fileID: 4493518502637500305, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 4506682497403571086, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _effectPrefab
       value: 
@@ -256183,7 +256207,7 @@ PrefabInstance:
     - target: {fileID: 4506682497403571086, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 4544741538734329050, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _hand
       value: 
@@ -256195,7 +256219,7 @@ PrefabInstance:
     - target: {fileID: 4544741538734329050, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 4545607486707608953, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _hand
       value: 
@@ -256207,7 +256231,7 @@ PrefabInstance:
     - target: {fileID: 4545607486707608953, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 4546099475068497443, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: m_IsActive
       value: 0
@@ -256231,7 +256255,7 @@ PrefabInstance:
     - target: {fileID: 4566291973320458582, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 4580069418919468998, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _effectPrefab
       value: 
@@ -256239,7 +256263,7 @@ PrefabInstance:
     - target: {fileID: 4580069418919468998, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 4635161648697802394, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _hand
       value: 
@@ -256251,7 +256275,7 @@ PrefabInstance:
     - target: {fileID: 4635161648697802394, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 4638086226429258197, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _effectPrefab
       value: 
@@ -256259,7 +256283,7 @@ PrefabInstance:
     - target: {fileID: 4638086226429258197, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 4670610819278802656, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _hand
       value: 
@@ -256271,7 +256295,7 @@ PrefabInstance:
     - target: {fileID: 4670610819278802656, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 4690876124835391464, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _effectPrefab
       value: 
@@ -256279,7 +256303,7 @@ PrefabInstance:
     - target: {fileID: 4690876124835391464, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 4714641188491012326, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _hand
       value: 
@@ -256291,7 +256315,7 @@ PrefabInstance:
     - target: {fileID: 4714641188491012326, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 4737875029600344086, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _effectPrefab
       value: 
@@ -256299,7 +256323,7 @@ PrefabInstance:
     - target: {fileID: 4737875029600344086, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 4762059861094489540, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _effectPrefab
       value: 
@@ -256307,7 +256331,7 @@ PrefabInstance:
     - target: {fileID: 4762059861094489540, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 4841330149515737834, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _effectPrefab
       value: 
@@ -256315,7 +256339,7 @@ PrefabInstance:
     - target: {fileID: 4841330149515737834, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 4844089608754045895, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _hand
       value: 
@@ -256327,7 +256351,7 @@ PrefabInstance:
     - target: {fileID: 4844089608754045895, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 4845701873641932623, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _effectPrefab
       value: 
@@ -256335,7 +256359,7 @@ PrefabInstance:
     - target: {fileID: 4845701873641932623, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 4849535908729405661, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _hand
       value: 
@@ -256347,7 +256371,7 @@ PrefabInstance:
     - target: {fileID: 4849535908729405661, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 4905184964686552706, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _hand
       value: 
@@ -256359,7 +256383,7 @@ PrefabInstance:
     - target: {fileID: 4905184964686552706, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 4908811665549177237, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: m_IsActive
       value: 0
@@ -256371,7 +256395,7 @@ PrefabInstance:
     - target: {fileID: 4922830304248083190, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 4923886257813248880, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _effectPrefab
       value: 
@@ -256379,7 +256403,7 @@ PrefabInstance:
     - target: {fileID: 4923886257813248880, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 4929876008956527790, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _effectPrefab
       value: 
@@ -256387,7 +256411,7 @@ PrefabInstance:
     - target: {fileID: 4929876008956527790, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 4955203221980966353, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _hand
       value: 
@@ -256399,7 +256423,7 @@ PrefabInstance:
     - target: {fileID: 4955203221980966353, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 4957179318376724144, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _effectPrefab
       value: 
@@ -256407,7 +256431,7 @@ PrefabInstance:
     - target: {fileID: 4957179318376724144, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 4958507153410972439, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: m_IsActive
       value: 0
@@ -256423,7 +256447,7 @@ PrefabInstance:
     - target: {fileID: 4966263477760723281, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 4969827909477815547, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _hand
       value: 
@@ -256435,7 +256459,7 @@ PrefabInstance:
     - target: {fileID: 4969827909477815547, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 4972738492827632488, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _effectPrefab
       value: 
@@ -256443,7 +256467,7 @@ PrefabInstance:
     - target: {fileID: 4972738492827632488, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 4981176458428011086, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: m_IsActive
       value: 0
@@ -256459,7 +256483,7 @@ PrefabInstance:
     - target: {fileID: 5009466966157816997, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 5020454786098174632, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _effectPrefab
       value: 
@@ -256467,7 +256491,7 @@ PrefabInstance:
     - target: {fileID: 5020454786098174632, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 5044446208047867858, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: m_IsActive
       value: 0
@@ -256479,7 +256503,7 @@ PrefabInstance:
     - target: {fileID: 5054544806265683259, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 5087596766309777320, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _effectPrefab
       value: 
@@ -256487,7 +256511,7 @@ PrefabInstance:
     - target: {fileID: 5087596766309777320, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 5097157633684861772, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _hand
       value: 
@@ -256499,7 +256523,7 @@ PrefabInstance:
     - target: {fileID: 5097157633684861772, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 5103521906909228268, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _effectPrefab
       value: 
@@ -256507,7 +256531,7 @@ PrefabInstance:
     - target: {fileID: 5103521906909228268, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 5111121463772568609, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _effectPrefab
       value: 
@@ -256515,7 +256539,7 @@ PrefabInstance:
     - target: {fileID: 5111121463772568609, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 5140264913096124605, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: m_IsActive
       value: 0
@@ -256527,7 +256551,7 @@ PrefabInstance:
     - target: {fileID: 5176602474700758586, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 5179410335777388688, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _effectPrefab
       value: 
@@ -256535,7 +256559,7 @@ PrefabInstance:
     - target: {fileID: 5179410335777388688, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 5190196211524615132, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _effectPrefab
       value: 
@@ -256543,7 +256567,7 @@ PrefabInstance:
     - target: {fileID: 5190196211524615132, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 5198267683878002753, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _effectPrefab
       value: 
@@ -256551,7 +256575,7 @@ PrefabInstance:
     - target: {fileID: 5198267683878002753, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 5244055303323366754, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: m_IsActive
       value: 0
@@ -256567,7 +256591,7 @@ PrefabInstance:
     - target: {fileID: 5276746340715025576, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 5284492493267003477, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _effectPrefab
       value: 
@@ -256575,7 +256599,7 @@ PrefabInstance:
     - target: {fileID: 5284492493267003477, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 5334230882191577516, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _hand
       value: 
@@ -256587,7 +256611,7 @@ PrefabInstance:
     - target: {fileID: 5334230882191577516, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 5374665297018410155, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _hand
       value: 
@@ -256599,7 +256623,7 @@ PrefabInstance:
     - target: {fileID: 5374665297018410155, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 5375643660737935316, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _hand
       value: 
@@ -256611,7 +256635,7 @@ PrefabInstance:
     - target: {fileID: 5375643660737935316, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 5388359950387305698, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _effectPrefab
       value: 
@@ -256619,7 +256643,7 @@ PrefabInstance:
     - target: {fileID: 5388359950387305698, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 5405009872423471839, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _effectPrefab
       value: 
@@ -256627,7 +256651,7 @@ PrefabInstance:
     - target: {fileID: 5405009872423471839, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 5446980844718357039, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _hand
       value: 
@@ -256639,7 +256663,7 @@ PrefabInstance:
     - target: {fileID: 5446980844718357039, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 5452516996851072291, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _effectPrefab
       value: 
@@ -256647,7 +256671,7 @@ PrefabInstance:
     - target: {fileID: 5452516996851072291, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 5456900866011345341, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _effectPrefab
       value: 
@@ -256655,7 +256679,7 @@ PrefabInstance:
     - target: {fileID: 5456900866011345341, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 5464404291556348516, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _effectPrefab
       value: 
@@ -256663,7 +256687,7 @@ PrefabInstance:
     - target: {fileID: 5464404291556348516, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 5470988617043934469, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: m_IsActive
       value: 0
@@ -256675,7 +256699,7 @@ PrefabInstance:
     - target: {fileID: 5485892224512093657, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 5508237216136869231, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: m_IsActive
       value: 0
@@ -256691,7 +256715,7 @@ PrefabInstance:
     - target: {fileID: 5551512976562466541, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 5553912617338708663, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _effectPrefab
       value: 
@@ -256699,7 +256723,7 @@ PrefabInstance:
     - target: {fileID: 5553912617338708663, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 5571554113445029564, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: m_IsActive
       value: 0
@@ -256711,7 +256735,7 @@ PrefabInstance:
     - target: {fileID: 5578848401932834148, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 5637928721019632423, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _hand
       value: 
@@ -256723,7 +256747,7 @@ PrefabInstance:
     - target: {fileID: 5637928721019632423, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 5640364284716668436, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _effectPrefab
       value: 
@@ -256731,7 +256755,7 @@ PrefabInstance:
     - target: {fileID: 5640364284716668436, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 5658494330131525583, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _effectPrefab
       value: 
@@ -256739,7 +256763,7 @@ PrefabInstance:
     - target: {fileID: 5658494330131525583, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 5676222880230824193, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: m_IsActive
       value: 0
@@ -256751,7 +256775,7 @@ PrefabInstance:
     - target: {fileID: 5683816693675805579, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 5694633286317402702, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _effectPrefab
       value: 
@@ -256759,7 +256783,7 @@ PrefabInstance:
     - target: {fileID: 5694633286317402702, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 5721698242756762594, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _effectPrefab
       value: 
@@ -256767,7 +256791,7 @@ PrefabInstance:
     - target: {fileID: 5721698242756762594, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 5753836002821523335, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _effectPrefab
       value: 
@@ -256775,7 +256799,7 @@ PrefabInstance:
     - target: {fileID: 5753836002821523335, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 5774876169805576973, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _hand
       value: 
@@ -256787,7 +256811,7 @@ PrefabInstance:
     - target: {fileID: 5774876169805576973, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 5778473112488310397, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _effectPrefab
       value: 
@@ -256795,7 +256819,7 @@ PrefabInstance:
     - target: {fileID: 5778473112488310397, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 5789803996194110090, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _effectPrefab
       value: 
@@ -256803,7 +256827,7 @@ PrefabInstance:
     - target: {fileID: 5789803996194110090, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 5827132398576965219, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _hand
       value: 
@@ -256815,7 +256839,7 @@ PrefabInstance:
     - target: {fileID: 5827132398576965219, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 5845242777563886218, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _hand
       value: 
@@ -256827,7 +256851,7 @@ PrefabInstance:
     - target: {fileID: 5845242777563886218, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 5860510158746189514, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: m_IsActive
       value: 0
@@ -256843,7 +256867,7 @@ PrefabInstance:
     - target: {fileID: 5900126488733524005, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 5961580951611445184, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _hand
       value: 
@@ -256855,7 +256879,7 @@ PrefabInstance:
     - target: {fileID: 5961580951611445184, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 6000145712875327336, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _effectPrefab
       value: 
@@ -256863,7 +256887,7 @@ PrefabInstance:
     - target: {fileID: 6000145712875327336, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 6023304154943424294, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _effectPrefab
       value: 
@@ -256871,7 +256895,7 @@ PrefabInstance:
     - target: {fileID: 6023304154943424294, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 6032183766129541302, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _effectPrefab
       value: 
@@ -256879,7 +256903,7 @@ PrefabInstance:
     - target: {fileID: 6032183766129541302, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 6036290580563752732, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: m_IsActive
       value: 0
@@ -256891,7 +256915,7 @@ PrefabInstance:
     - target: {fileID: 6039065506387470450, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 6094147212678473810, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _hand
       value: 
@@ -256903,7 +256927,7 @@ PrefabInstance:
     - target: {fileID: 6094147212678473810, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 6105125568661770423, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _hand
       value: 
@@ -256915,7 +256939,7 @@ PrefabInstance:
     - target: {fileID: 6105125568661770423, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 6145921928680015531, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _hand
       value: 
@@ -256927,7 +256951,7 @@ PrefabInstance:
     - target: {fileID: 6145921928680015531, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 6168004339319440654, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _hand
       value: 
@@ -256939,7 +256963,7 @@ PrefabInstance:
     - target: {fileID: 6168004339319440654, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 6203133558111050086, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _effectPrefab
       value: 
@@ -256947,7 +256971,7 @@ PrefabInstance:
     - target: {fileID: 6203133558111050086, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 6209993397564406015, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _effectPrefab
       value: 
@@ -256955,7 +256979,7 @@ PrefabInstance:
     - target: {fileID: 6209993397564406015, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 6212992309386897160, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _effectPrefab
       value: 
@@ -256963,7 +256987,7 @@ PrefabInstance:
     - target: {fileID: 6212992309386897160, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 6244482124598830849, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _effectPrefab
       value: 
@@ -256971,7 +256995,7 @@ PrefabInstance:
     - target: {fileID: 6244482124598830849, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 6284121111225742116, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _effectPrefab
       value: 
@@ -256979,7 +257003,7 @@ PrefabInstance:
     - target: {fileID: 6284121111225742116, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 6302811802949348306, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _effectPrefab
       value: 
@@ -256987,7 +257011,7 @@ PrefabInstance:
     - target: {fileID: 6302811802949348306, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 6352057841706990480, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _effectPrefab
       value: 
@@ -256995,7 +257019,7 @@ PrefabInstance:
     - target: {fileID: 6352057841706990480, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 6397012084366392939, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _hand
       value: 
@@ -257007,7 +257031,7 @@ PrefabInstance:
     - target: {fileID: 6397012084366392939, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 6407121251980799093, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: m_IsActive
       value: 0
@@ -257023,7 +257047,7 @@ PrefabInstance:
     - target: {fileID: 6425394338415779097, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 6434474648043851325, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: m_Size.x
       value: 1.2036829
@@ -257047,7 +257071,7 @@ PrefabInstance:
     - target: {fileID: 6459627515548191508, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 6475656915275053395, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: m_IsActive
       value: 0
@@ -257067,7 +257091,7 @@ PrefabInstance:
     - target: {fileID: 6534908002392583495, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 6552890599652069157, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _effectPrefab
       value: 
@@ -257075,7 +257099,7 @@ PrefabInstance:
     - target: {fileID: 6552890599652069157, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 6583520634376772720, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _effectPrefab
       value: 
@@ -257083,7 +257107,7 @@ PrefabInstance:
     - target: {fileID: 6583520634376772720, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 6584747768771647656, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: m_IsActive
       value: 0
@@ -257099,7 +257123,7 @@ PrefabInstance:
     - target: {fileID: 6589700226610246531, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 6590679488873647050, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _hand
       value: 
@@ -257111,7 +257135,7 @@ PrefabInstance:
     - target: {fileID: 6590679488873647050, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 6629316796829445888, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _effectPrefab
       value: 
@@ -257119,7 +257143,7 @@ PrefabInstance:
     - target: {fileID: 6629316796829445888, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 6649576166100058447, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _effectPrefab
       value: 
@@ -257127,7 +257151,7 @@ PrefabInstance:
     - target: {fileID: 6649576166100058447, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 6658966169577335295, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _effectPrefab
       value: 
@@ -257135,7 +257159,7 @@ PrefabInstance:
     - target: {fileID: 6658966169577335295, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 6668505663724498186, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _effectPrefab
       value: 
@@ -257143,7 +257167,7 @@ PrefabInstance:
     - target: {fileID: 6668505663724498186, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 6669590581544384758, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _effectPrefab
       value: 
@@ -257151,7 +257175,7 @@ PrefabInstance:
     - target: {fileID: 6669590581544384758, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 6671628481077200424, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _effectPrefab
       value: 
@@ -257159,7 +257183,7 @@ PrefabInstance:
     - target: {fileID: 6671628481077200424, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 6700694625399370589, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _effectPrefab
       value: 
@@ -257167,7 +257191,7 @@ PrefabInstance:
     - target: {fileID: 6700694625399370589, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 6715046880221724856, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: m_IsActive
       value: 0
@@ -257179,7 +257203,7 @@ PrefabInstance:
     - target: {fileID: 6730639792160456311, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 6752351806776785991, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _hand
       value: 
@@ -257191,7 +257215,7 @@ PrefabInstance:
     - target: {fileID: 6752351806776785991, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 6790060482278979839, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _effectPrefab
       value: 
@@ -257199,7 +257223,7 @@ PrefabInstance:
     - target: {fileID: 6790060482278979839, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 6806639455775528101, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _effectPrefab
       value: 
@@ -257207,7 +257231,7 @@ PrefabInstance:
     - target: {fileID: 6806639455775528101, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 6841067554128728127, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _effectPrefab
       value: 
@@ -257215,7 +257239,7 @@ PrefabInstance:
     - target: {fileID: 6841067554128728127, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 6850209507732346809, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _effectPrefab
       value: 
@@ -257223,7 +257247,7 @@ PrefabInstance:
     - target: {fileID: 6850209507732346809, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 6884010030686513185, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _effectPrefab
       value: 
@@ -257231,7 +257255,7 @@ PrefabInstance:
     - target: {fileID: 6884010030686513185, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 6890990068762602407, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: m_IsActive
       value: 0
@@ -257243,7 +257267,7 @@ PrefabInstance:
     - target: {fileID: 6894617286673726742, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 6904705384203782879, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: m_IsActive
       value: 0
@@ -257255,7 +257279,7 @@ PrefabInstance:
     - target: {fileID: 6910889301632709109, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 6918323236809609753, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _effectPrefab
       value: 
@@ -257263,7 +257287,7 @@ PrefabInstance:
     - target: {fileID: 6918323236809609753, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 6920886282194983329, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _effectPrefab
       value: 
@@ -257271,7 +257295,7 @@ PrefabInstance:
     - target: {fileID: 6920886282194983329, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 6927561038780072547, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _hand
       value: 
@@ -257283,7 +257307,7 @@ PrefabInstance:
     - target: {fileID: 6927561038780072547, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 6931413701354420785, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _hand
       value: 
@@ -257295,7 +257319,7 @@ PrefabInstance:
     - target: {fileID: 6931413701354420785, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 6940303380737264501, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _effectPrefab
       value: 
@@ -257303,7 +257327,7 @@ PrefabInstance:
     - target: {fileID: 6940303380737264501, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 6942650048610339862, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _hand
       value: 
@@ -257315,7 +257339,7 @@ PrefabInstance:
     - target: {fileID: 6942650048610339862, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 6943947037711802475, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _effectPrefab
       value: 
@@ -257323,7 +257347,7 @@ PrefabInstance:
     - target: {fileID: 6943947037711802475, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 6960079897050558505, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _hand
       value: 
@@ -257335,7 +257359,7 @@ PrefabInstance:
     - target: {fileID: 6960079897050558505, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 6963949279078876282, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _effectPrefab
       value: 
@@ -257343,7 +257367,7 @@ PrefabInstance:
     - target: {fileID: 6963949279078876282, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 6988265855312563141, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _effectPrefab
       value: 
@@ -257351,7 +257375,7 @@ PrefabInstance:
     - target: {fileID: 6988265855312563141, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 7014806591337263015, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _hand
       value: 
@@ -257363,7 +257387,7 @@ PrefabInstance:
     - target: {fileID: 7014806591337263015, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 7060781401770944856, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _effectPrefab
       value: 
@@ -257371,7 +257395,7 @@ PrefabInstance:
     - target: {fileID: 7060781401770944856, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 7062228665000378395, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _effectPrefab
       value: 
@@ -257379,7 +257403,7 @@ PrefabInstance:
     - target: {fileID: 7062228665000378395, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 7072821115117303327, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _effectPrefab
       value: 
@@ -257387,7 +257411,7 @@ PrefabInstance:
     - target: {fileID: 7072821115117303327, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 7084413712272999548, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _effectPrefab
       value: 
@@ -257395,7 +257419,7 @@ PrefabInstance:
     - target: {fileID: 7084413712272999548, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 7103890023493377807, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _hand
       value: 
@@ -257407,7 +257431,7 @@ PrefabInstance:
     - target: {fileID: 7103890023493377807, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 7106735227165137200, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _hand
       value: 
@@ -257419,7 +257443,7 @@ PrefabInstance:
     - target: {fileID: 7106735227165137200, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 7121983060613441591, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _effectPrefab
       value: 
@@ -257427,7 +257451,7 @@ PrefabInstance:
     - target: {fileID: 7121983060613441591, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 7168326170557506407, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _effectPrefab
       value: 
@@ -257435,7 +257459,7 @@ PrefabInstance:
     - target: {fileID: 7168326170557506407, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 7254097352435519327, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _effectPrefab
       value: 
@@ -257443,7 +257467,7 @@ PrefabInstance:
     - target: {fileID: 7254097352435519327, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 7262447761120985165, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _hand
       value: 
@@ -257455,7 +257479,7 @@ PrefabInstance:
     - target: {fileID: 7262447761120985165, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 7266742049873713282, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: m_IsActive
       value: 0
@@ -257471,7 +257495,7 @@ PrefabInstance:
     - target: {fileID: 7315940721068508561, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 7320846582456330887, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _effectPrefab
       value: 
@@ -257479,7 +257503,7 @@ PrefabInstance:
     - target: {fileID: 7320846582456330887, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 7322343964774321402, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: m_IsActive
       value: 0
@@ -257495,7 +257519,7 @@ PrefabInstance:
     - target: {fileID: 7326398962401662620, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 7331670967970880489, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _hand
       value: 
@@ -257507,7 +257531,7 @@ PrefabInstance:
     - target: {fileID: 7331670967970880489, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 7339936055665225596, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: m_IsActive
       value: 0
@@ -257519,7 +257543,7 @@ PrefabInstance:
     - target: {fileID: 7390800939671115344, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 7402240895798190068, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _hand
       value: 
@@ -257531,7 +257555,7 @@ PrefabInstance:
     - target: {fileID: 7402240895798190068, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 7406654130743637277, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _effectPrefab
       value: 
@@ -257539,7 +257563,7 @@ PrefabInstance:
     - target: {fileID: 7406654130743637277, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 7417103071862927758, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _effectPrefab
       value: 
@@ -257547,7 +257571,7 @@ PrefabInstance:
     - target: {fileID: 7417103071862927758, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 7445212376235436424, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _effectPrefab
       value: 
@@ -257555,7 +257579,7 @@ PrefabInstance:
     - target: {fileID: 7445212376235436424, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 7446178680062455249, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: m_IsActive
       value: 0
@@ -257579,7 +257603,7 @@ PrefabInstance:
     - target: {fileID: 7506579427861502257, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 7522233244514147919, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _hand
       value: 
@@ -257591,7 +257615,7 @@ PrefabInstance:
     - target: {fileID: 7522233244514147919, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 7523314497936629921, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _hand
       value: 
@@ -257603,7 +257627,7 @@ PrefabInstance:
     - target: {fileID: 7523314497936629921, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 7524874702038071277, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: m_IsActive
       value: 0
@@ -257615,7 +257639,7 @@ PrefabInstance:
     - target: {fileID: 7570486092054953112, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 7603266752985841428, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _effectPrefab
       value: 
@@ -257623,7 +257647,7 @@ PrefabInstance:
     - target: {fileID: 7603266752985841428, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 7603772870149738824, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _effectPrefab
       value: 
@@ -257631,7 +257655,7 @@ PrefabInstance:
     - target: {fileID: 7603772870149738824, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 7643110454043780293, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _effectPrefab
       value: 
@@ -257639,7 +257663,7 @@ PrefabInstance:
     - target: {fileID: 7643110454043780293, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 7644134725225524898, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _hand
       value: 
@@ -257651,7 +257675,7 @@ PrefabInstance:
     - target: {fileID: 7644134725225524898, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 7655407942507992637, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: m_IsActive
       value: 0
@@ -257663,7 +257687,7 @@ PrefabInstance:
     - target: {fileID: 7671025493266882760, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 7696729683895503944, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: m_IsActive
       value: 0
@@ -257675,7 +257699,7 @@ PrefabInstance:
     - target: {fileID: 7712985965890859268, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 7734167665137816611, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _effectPrefab
       value: 
@@ -257683,7 +257707,7 @@ PrefabInstance:
     - target: {fileID: 7734167665137816611, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 7815266103221268779, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _hand
       value: 
@@ -257695,7 +257719,7 @@ PrefabInstance:
     - target: {fileID: 7815266103221268779, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 7825983827081900832, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _effectPrefab
       value: 
@@ -257703,7 +257727,7 @@ PrefabInstance:
     - target: {fileID: 7825983827081900832, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 7832550929595392322, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _hand
       value: 
@@ -257715,7 +257739,7 @@ PrefabInstance:
     - target: {fileID: 7832550929595392322, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 7854411807581440669, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _effectPrefab
       value: 
@@ -257723,7 +257747,7 @@ PrefabInstance:
     - target: {fileID: 7854411807581440669, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 7858962044201380594, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _effectPrefab
       value: 
@@ -257731,7 +257755,7 @@ PrefabInstance:
     - target: {fileID: 7858962044201380594, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 7878259309712270350, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _effectPrefab
       value: 
@@ -257739,7 +257763,7 @@ PrefabInstance:
     - target: {fileID: 7878259309712270350, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 7896606078078180089, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _hand
       value: 
@@ -257751,7 +257775,7 @@ PrefabInstance:
     - target: {fileID: 7896606078078180089, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 7896661299156696024, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _hand
       value: 
@@ -257763,7 +257787,7 @@ PrefabInstance:
     - target: {fileID: 7896661299156696024, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 7904904043893148044, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _effectPrefab
       value: 
@@ -257771,7 +257795,7 @@ PrefabInstance:
     - target: {fileID: 7904904043893148044, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 7922300230961164137, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _effectPrefab
       value: 
@@ -257779,7 +257803,7 @@ PrefabInstance:
     - target: {fileID: 7922300230961164137, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 7953675402208407643, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _effectPrefab
       value: 
@@ -257787,7 +257811,7 @@ PrefabInstance:
     - target: {fileID: 7953675402208407643, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 7967604343615907009, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _effectPrefab
       value: 
@@ -257795,7 +257819,7 @@ PrefabInstance:
     - target: {fileID: 7967604343615907009, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 7976085742207159091, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _hand
       value: 
@@ -257807,7 +257831,7 @@ PrefabInstance:
     - target: {fileID: 7976085742207159091, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 8003483179111070102, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _effectPrefab
       value: 
@@ -257815,7 +257839,7 @@ PrefabInstance:
     - target: {fileID: 8003483179111070102, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 8060101585941491465, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _effectPrefab
       value: 
@@ -257823,7 +257847,7 @@ PrefabInstance:
     - target: {fileID: 8060101585941491465, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 8157814934752950010, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _effectPrefab
       value: 
@@ -257831,7 +257855,7 @@ PrefabInstance:
     - target: {fileID: 8157814934752950010, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 8219211050880475466, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: m_IsActive
       value: 0
@@ -257843,7 +257867,7 @@ PrefabInstance:
     - target: {fileID: 8239420806427164913, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 8246675410383460570, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _hand
       value: 
@@ -257855,7 +257879,7 @@ PrefabInstance:
     - target: {fileID: 8246675410383460570, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 8264407628953384678, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: m_IsActive
       value: 0
@@ -257867,7 +257891,7 @@ PrefabInstance:
     - target: {fileID: 8298014121927821520, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 8300599334737903068, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _hand
       value: 
@@ -257879,7 +257903,7 @@ PrefabInstance:
     - target: {fileID: 8300599334737903068, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 8307055918222118662, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _hand
       value: 
@@ -257891,7 +257915,7 @@ PrefabInstance:
     - target: {fileID: 8307055918222118662, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 8320254797183466257, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _effectPrefab
       value: 
@@ -257899,7 +257923,7 @@ PrefabInstance:
     - target: {fileID: 8320254797183466257, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 8331787276107625295, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _effectPrefab
       value: 
@@ -257907,7 +257931,7 @@ PrefabInstance:
     - target: {fileID: 8331787276107625295, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 8351010844268484988, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: m_IsActive
       value: 0
@@ -257923,7 +257947,7 @@ PrefabInstance:
     - target: {fileID: 8409989953261085157, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 8413307121809354462, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _effectPrefab
       value: 
@@ -257931,7 +257955,7 @@ PrefabInstance:
     - target: {fileID: 8413307121809354462, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 8452329400536516525, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _effectPrefab
       value: 
@@ -257939,7 +257963,7 @@ PrefabInstance:
     - target: {fileID: 8452329400536516525, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 8472885071610920075, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: m_IsActive
       value: 0
@@ -257951,7 +257975,7 @@ PrefabInstance:
     - target: {fileID: 8476779345034135376, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 8534025069089337001, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _effectPrefab
       value: 
@@ -257959,7 +257983,7 @@ PrefabInstance:
     - target: {fileID: 8534025069089337001, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 8548148298197621022, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _hand
       value: 
@@ -257971,7 +257995,7 @@ PrefabInstance:
     - target: {fileID: 8548148298197621022, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 8576219100861496461, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: m_IsActive
       value: 0
@@ -257991,7 +258015,7 @@ PrefabInstance:
     - target: {fileID: 8598242437913499648, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 8623533103604849462, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _effectPrefab
       value: 
@@ -257999,7 +258023,7 @@ PrefabInstance:
     - target: {fileID: 8623533103604849462, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 8629219372149929038, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _effectPrefab
       value: 
@@ -258007,7 +258031,7 @@ PrefabInstance:
     - target: {fileID: 8629219372149929038, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 8646063095602327757, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _effectPrefab
       value: 
@@ -258015,7 +258039,7 @@ PrefabInstance:
     - target: {fileID: 8646063095602327757, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 8650650894000602897, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _effectPrefab
       value: 
@@ -258023,7 +258047,7 @@ PrefabInstance:
     - target: {fileID: 8650650894000602897, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 8662772629158777158, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _hand
       value: 
@@ -258035,7 +258059,7 @@ PrefabInstance:
     - target: {fileID: 8662772629158777158, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 8667663793801271735, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: m_IsActive
       value: 0
@@ -258047,7 +258071,7 @@ PrefabInstance:
     - target: {fileID: 8688586259091738190, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 8712436818198600953, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _hand
       value: 
@@ -258059,7 +258083,7 @@ PrefabInstance:
     - target: {fileID: 8712436818198600953, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 8738845880961558358, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _effectPrefab
       value: 
@@ -258067,7 +258091,7 @@ PrefabInstance:
     - target: {fileID: 8738845880961558358, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 8754059699837926352, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: m_IsActive
       value: 0
@@ -258083,7 +258107,7 @@ PrefabInstance:
     - target: {fileID: 8784198129818920790, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 8794057048009035299, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _hand
       value: 
@@ -258095,7 +258119,7 @@ PrefabInstance:
     - target: {fileID: 8794057048009035299, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 8825814406174740761, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _effectPrefab
       value: 
@@ -258103,7 +258127,7 @@ PrefabInstance:
     - target: {fileID: 8825814406174740761, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 8842153790022128402, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _effectPrefab
       value: 
@@ -258111,7 +258135,7 @@ PrefabInstance:
     - target: {fileID: 8842153790022128402, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 8842389712921065953, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _effectPrefab
       value: 
@@ -258119,7 +258143,7 @@ PrefabInstance:
     - target: {fileID: 8842389712921065953, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 8866434445947873476, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _effectPrefab
       value: 
@@ -258127,7 +258151,7 @@ PrefabInstance:
     - target: {fileID: 8866434445947873476, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 8876112920515000021, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: m_IsActive
       value: 0
@@ -258143,7 +258167,7 @@ PrefabInstance:
     - target: {fileID: 8883600250722980777, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 8913409334117208436, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _hand
       value: 
@@ -258155,7 +258179,7 @@ PrefabInstance:
     - target: {fileID: 8913409334117208436, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 8929842583404267889, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _effectPrefab
       value: 
@@ -258163,7 +258187,7 @@ PrefabInstance:
     - target: {fileID: 8929842583404267889, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 8940257070267734162, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _effectPrefab
       value: 
@@ -258171,7 +258195,7 @@ PrefabInstance:
     - target: {fileID: 8940257070267734162, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 8940687650511421624, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _effectPrefab
       value: 
@@ -258179,7 +258203,7 @@ PrefabInstance:
     - target: {fileID: 8940687650511421624, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 8944194016723660317, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _effectPrefab
       value: 
@@ -258187,7 +258211,7 @@ PrefabInstance:
     - target: {fileID: 8944194016723660317, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 8958565163156531681, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _effectPrefab
       value: 
@@ -258195,7 +258219,7 @@ PrefabInstance:
     - target: {fileID: 8958565163156531681, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 8973703858988987482, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _effectPrefab
       value: 
@@ -258203,7 +258227,7 @@ PrefabInstance:
     - target: {fileID: 8973703858988987482, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 8994570669942643058, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _effectPrefab
       value: 
@@ -258211,7 +258235,7 @@ PrefabInstance:
     - target: {fileID: 8994570669942643058, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 9013520688487773952, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _hand
       value: 
@@ -258223,7 +258247,7 @@ PrefabInstance:
     - target: {fileID: 9013520688487773952, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 9024187790383725197, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: m_IsActive
       value: 0
@@ -258235,7 +258259,7 @@ PrefabInstance:
     - target: {fileID: 9085329189048191663, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 9112230755224423470, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _effectPrefab
       value: 
@@ -258243,7 +258267,7 @@ PrefabInstance:
     - target: {fileID: 9112230755224423470, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 9112902665458755681, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _effectPrefab
       value: 
@@ -258251,7 +258275,7 @@ PrefabInstance:
     - target: {fileID: 9112902665458755681, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 9129940894402256645, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: m_IsActive
       value: 0
@@ -258263,7 +258287,7 @@ PrefabInstance:
     - target: {fileID: 9149975519852567120, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 9162738331972646824, guid: f56698dd7c9d6c34bbb1480379f0331c, type: 3}
       propertyPath: m_IsActive
       value: 0
@@ -258864,7 +258888,7 @@ MonoBehaviour:
   _doublePinchMaxDelay: 0.4
   _scaleDownDuration: 1
   _effectPrefab: {fileID: 6496764004602965790, guid: fe81ddff006f38a449da11b73d6db8f3, type: 3}
-  _parentForEffect: {fileID: 1299899970}
+  _parentForEffect: {fileID: 347405591}
   _audioClip: {fileID: 8300000, guid: d857c221072d92344af4f7998beccbe6, type: 3}
 --- !u!1 &1332713741 stripped
 GameObject:
@@ -259010,7 +259034,7 @@ MonoBehaviour:
   _doublePinchMaxDelay: 0.4
   _scaleDownDuration: 1
   _effectPrefab: {fileID: 6496764004602965790, guid: fe81ddff006f38a449da11b73d6db8f3, type: 3}
-  _parentForEffect: {fileID: 1299899970}
+  _parentForEffect: {fileID: 347405591}
   _audioClip: {fileID: 8300000, guid: d857c221072d92344af4f7998beccbe6, type: 3}
 --- !u!1 &1342765856
 GameObject:
@@ -259178,88 +259202,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1344458550}
   m_Mesh: {fileID: -1198743231517016826, guid: 11180b80199b365419e95537773cbd6d, type: 3}
---- !u!1001 &1352237045
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 6627789897128977937, guid: 4c665e27d7750394c845520d7e207fc6, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6627789897128977937, guid: 4c665e27d7750394c845520d7e207fc6, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6627789897128977937, guid: 4c665e27d7750394c845520d7e207fc6, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -0.424
-      objectReference: {fileID: 0}
-    - target: {fileID: 6627789897128977937, guid: 4c665e27d7750394c845520d7e207fc6, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6627789897128977937, guid: 4c665e27d7750394c845520d7e207fc6, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6627789897128977937, guid: 4c665e27d7750394c845520d7e207fc6, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6627789897128977937, guid: 4c665e27d7750394c845520d7e207fc6, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6627789897128977937, guid: 4c665e27d7750394c845520d7e207fc6, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6627789897128977937, guid: 4c665e27d7750394c845520d7e207fc6, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6627789897128977937, guid: 4c665e27d7750394c845520d7e207fc6, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6627789897129015857, guid: 4c665e27d7750394c845520d7e207fc6, type: 3}
-      propertyPath: m_Name
-      value: OVRCameraRig Variant
-      objectReference: {fileID: 0}
-    - target: {fileID: 6627789897129015857, guid: 4c665e27d7750394c845520d7e207fc6, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 5552523580401361248, guid: 4c665e27d7750394c845520d7e207fc6, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1352237047}
-  m_SourcePrefab: {fileID: 100100000, guid: 4c665e27d7750394c845520d7e207fc6, type: 3}
---- !u!1 &1352237046 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 5552523580401361248, guid: 4c665e27d7750394c845520d7e207fc6, type: 3}
-  m_PrefabInstance: {fileID: 1352237045}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1352237047
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1352237046}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 298511b53b4cdbd47bfbf6d4b68139d6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  textMesh: {fileID: 0}
 --- !u!1 &1370219086
 GameObject:
   m_ObjectHideFlags: 0
@@ -280179,7 +280121,7 @@ MonoBehaviour:
   _doublePinchMaxDelay: 0.4
   _scaleDownDuration: 1
   _effectPrefab: {fileID: 6496764004602965790, guid: fe81ddff006f38a449da11b73d6db8f3, type: 3}
-  _parentForEffect: {fileID: 1299899970}
+  _parentForEffect: {fileID: 347405591}
   _audioClip: {fileID: 8300000, guid: d857c221072d92344af4f7998beccbe6, type: 3}
 --- !u!1 &1542055245
 GameObject:
@@ -310117,7 +310059,7 @@ MonoBehaviour:
   _doublePinchMaxDelay: 0.4
   _scaleDownDuration: 1
   _effectPrefab: {fileID: 6496764004602965790, guid: fe81ddff006f38a449da11b73d6db8f3, type: 3}
-  _parentForEffect: {fileID: 1299899970}
+  _parentForEffect: {fileID: 347405591}
   _audioClip: {fileID: 8300000, guid: d857c221072d92344af4f7998beccbe6, type: 3}
 --- !u!82 &1620165202
 AudioSource:
@@ -320070,6 +320012,37 @@ ParticleSystem:
         m_PostInfinity: 2
         m_RotationOrder: 4
     vectorLabel1_3: W
+--- !u!1 &1663626031
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1663626032}
+  m_Layer: 0
+  m_Name: Asset 25@3x
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &1663626032
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1663626031}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1667910788
 GameObject:
   m_ObjectHideFlags: 0
@@ -320459,7 +320432,7 @@ MonoBehaviour:
   _doublePinchMaxDelay: 0.4
   _scaleDownDuration: 1
   _effectPrefab: {fileID: 6496764004602965790, guid: fe81ddff006f38a449da11b73d6db8f3, type: 3}
-  _parentForEffect: {fileID: 1299899970}
+  _parentForEffect: {fileID: 347405591}
   _audioClip: {fileID: 8300000, guid: d857c221072d92344af4f7998beccbe6, type: 3}
 --- !u!1001 &1697398071
 PrefabInstance:
@@ -321193,7 +321166,7 @@ MonoBehaviour:
   _doublePinchMaxDelay: 0.4
   _scaleDownDuration: 1
   _effectPrefab: {fileID: 6496764004602965790, guid: fe81ddff006f38a449da11b73d6db8f3, type: 3}
-  _parentForEffect: {fileID: 1299899970}
+  _parentForEffect: {fileID: 347405591}
   _audioClip: {fileID: 8300000, guid: d857c221072d92344af4f7998beccbe6, type: 3}
 --- !u!1 &1711131499
 GameObject:
@@ -332741,7 +332714,7 @@ PrefabInstance:
     - target: {fileID: 774072729207518174, guid: 8bb453fe001b28b479dc0d0a933eeabb, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 2107302321628571893, guid: 8bb453fe001b28b479dc0d0a933eeabb, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.20000002
@@ -332832,7 +332805,7 @@ MonoBehaviour:
   _doublePinchMaxDelay: 0.4
   _scaleDownDuration: 1
   _effectPrefab: {fileID: 6496764004602965790, guid: fe81ddff006f38a449da11b73d6db8f3, type: 3}
-  _parentForEffect: {fileID: 1299899970}
+  _parentForEffect: {fileID: 347405591}
   _audioClip: {fileID: 8300000, guid: d857c221072d92344af4f7998beccbe6, type: 3}
 --- !u!1 &1828301353
 GameObject:
@@ -333021,7 +332994,7 @@ MonoBehaviour:
   _doublePinchMaxDelay: 0.4
   _scaleDownDuration: 1
   _effectPrefab: {fileID: 6496764004602965790, guid: fe81ddff006f38a449da11b73d6db8f3, type: 3}
-  _parentForEffect: {fileID: 1299899970}
+  _parentForEffect: {fileID: 347405591}
   _audioClip: {fileID: 8300000, guid: d857c221072d92344af4f7998beccbe6, type: 3}
 --- !u!1 &1845399985
 GameObject:
@@ -338107,7 +338080,7 @@ MonoBehaviour:
   _doublePinchMaxDelay: 0.4
   _scaleDownDuration: 1
   _effectPrefab: {fileID: 6496764004602965790, guid: fe81ddff006f38a449da11b73d6db8f3, type: 3}
-  _parentForEffect: {fileID: 1299899970}
+  _parentForEffect: {fileID: 347405591}
   _audioClip: {fileID: 8300000, guid: d857c221072d92344af4f7998beccbe6, type: 3}
 --- !u!82 &1864462986
 AudioSource:
@@ -353503,6 +353476,37 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1926859395}
   m_Mesh: {fileID: -1198743231517016826, guid: 11180b80199b365419e95537773cbd6d, type: 3}
+--- !u!1 &1927819959
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1927819960}
+  m_Layer: 0
+  m_Name: Asset 26@3x
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &1927819960
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1927819959}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1931105316
 GameObject:
   m_ObjectHideFlags: 0
@@ -363860,6 +363864,10 @@ PrefabInstance:
       value: 208.564
       objectReference: {fileID: 0}
     - target: {fileID: -7511558181221131132, guid: a5883e0c77f5b48cdb5fdcea1623570e, type: 3}
+      propertyPath: m_ReceiveShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: a5883e0c77f5b48cdb5fdcea1623570e, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 61c31048e26924ac89c5012a4964e102, type: 2}
@@ -363892,7 +363900,7 @@ PrefabInstance:
     - target: {fileID: 774072729207518174, guid: 8bb453fe001b28b479dc0d0a933eeabb, type: 3}
       propertyPath: _parentForEffect
       value: 
-      objectReference: {fileID: 1299899970}
+      objectReference: {fileID: 347405591}
     - target: {fileID: 2107302321628571893, guid: 8bb453fe001b28b479dc0d0a933eeabb, type: 3}
       propertyPath: m_LocalPosition.x
       value: -1.7786999
@@ -369502,7 +369510,7 @@ MonoBehaviour:
   _doublePinchMaxDelay: 0.4
   _scaleDownDuration: 1
   _effectPrefab: {fileID: 6496764004602965790, guid: fe81ddff006f38a449da11b73d6db8f3, type: 3}
-  _parentForEffect: {fileID: 1299899970}
+  _parentForEffect: {fileID: 347405591}
   _audioClip: {fileID: 8300000, guid: d857c221072d92344af4f7998beccbe6, type: 3}
 --- !u!82 &2074528295
 AudioSource:
@@ -385199,7 +385207,7 @@ MonoBehaviour:
   _doublePinchMaxDelay: 0.4
   _scaleDownDuration: 1
   _effectPrefab: {fileID: 6496764004602965790, guid: fe81ddff006f38a449da11b73d6db8f3, type: 3}
-  _parentForEffect: {fileID: 1299899970}
+  _parentForEffect: {fileID: 347405591}
   _audioClip: {fileID: 8300000, guid: d857c221072d92344af4f7998beccbe6, type: 3}
 --- !u!82 &2146765995
 AudioSource:
@@ -387304,4 +387312,5 @@ SceneRoots:
   - {fileID: 766706250}
   - {fileID: 1318179509}
   - {fileID: 1996907719}
-  - {fileID: 1352237045}
+  - {fileID: 1663626032}
+  - {fileID: 1927819960}
