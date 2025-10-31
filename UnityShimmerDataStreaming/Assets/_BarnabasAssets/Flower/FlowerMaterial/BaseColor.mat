@@ -1,0 +1,139 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: BaseColor
+  m_Shader: {fileID: 4800000, guid: 8c728a1f62b31af4ebbcedb432c8362b, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords:
+  - _INVERT_ON
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BumpMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailAlbedoMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailNormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MetallicGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OcclusionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ParallaxMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _Alpha: 1
+    - _Blend: 4.67
+    - _BlendSharpness: 1.36
+    - _BlendWidth: 0.426
+    - _BumpScale: 1
+    - _Channel: 0
+    - _ColorARedBoost: 0
+    - _ColorBBlueBoost: 0
+    - _Curvature: 0.49
+    - _Cutoff: 0.5
+    - _DetailNormalMapScale: 1
+    - _DistortionAmount: 0.1
+    - _DistortionSpeed: 0.5
+    - _DstBlend: 0
+    - _EmissionIntensity1: 1.67
+    - _EmissionIntensity2: 1
+    - _EmissionPower: 0
+    - _EmissionPower1: 1.29
+    - _EmissionPower2: 2.14
+    - _FlowIntensity: 0.3
+    - _FlowScale: 2
+    - _FlowSpeed: 1
+    - _FresnelBias: 0.2
+    - _FresnelPower: 3
+    - _GlobalEmissionIntensity: 0.13
+    - _GlossMapScale: 1
+    - _Glossiness: 0.5
+    - _GlossyReflections: 1
+    - _GradientAngle: 282
+    - _GradientDirection: 1
+    - _GradientOffset: 0.205
+    - _GradientPosition: 0.681
+    - _GradientScale: 4.07
+    - _Invert: 1
+    - _LerpFactor: 0.83370614
+    - _MasterRange: 0.5
+    - _Metallic: 0
+    - _Mode: 0
+    - _OcclusionStrength: 1
+    - _Offset: 0.373
+    - _Parallax: 0.02
+    - _ScrollSpeed: 0.2
+    - _SmoothnessTextureChannel: 0
+    - _SpecularHighlights: 1
+    - _SrcBlend: 1
+    - _TransitionPosition: 0.24
+    - _TransitionSharpness: 4.58
+    - _TransitionWidth: 1
+    - _UVSec: 0
+    - _VoxelBlend: 0.722
+    - _VoxelSize: 0.01
+    - _WorldSpace: 0
+    - _ZWrite: 1
+    m_Colors:
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _Color1: {r: 1, g: 0.745283, b: 0.745283, a: 1}
+    - _Color2: {r: 0.48113203, g: 0.48113203, b: 1, a: 1}
+    - _ColorA: {r: 1, g: 1, b: 1, a: 0.24705882}
+    - _ColorB: {r: 0.8617182, g: 0.45148236, b: 1, a: 0.23137255}
+    - _CurvatureCenter: {r: 0.5, g: 0.5, b: 0, a: 0}
+    - _Emission1: {r: 0.94716984, g: 0, b: 0, a: 1}
+    - _Emission2: {r: 1.5529412, g: 0.8627451, b: 2, a: 1}
+    - _EmissionA: {r: 3.5648687, g: 2.027628, b: 0, a: 1}
+    - _EmissionB: {r: 0, g: 2.3713138, b: 2.6701574, a: 1}
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _EmissionColor1: {r: 0, g: 0.20118594, b: 1, a: 1}
+    - _EmissionColor2: {r: 0, g: 1, b: 0.9108715, a: 1}
+    - _FlowDirection: {r: 1, g: 0.5, b: 0, a: 0}
+    - _FresnelColor: {r: 0.8, g: 0.9, b: 1, a: 1}
+    - _GlobalEmission: {r: 1, g: 1, b: 1, a: 1}
+    - _MainColor: {r: 0.19999996, g: 0.5, b: 1, a: 0.3}
+    - _VolumeCenter: {r: 0, g: 0, b: 0, a: 0}
+    - _VolumeExtents: {r: 5, g: 5, b: 5, a: 0}
+    - _VoxelColor: {r: 1, g: 1, b: 1, a: 1}
+  m_BuildTextureStacks: []
